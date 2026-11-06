@@ -1,0 +1,5310 @@
+{
+  "election": {
+    "name": "2026 Provincial General Election",
+    "jurisdiction": "British Columbia",
+    "final_voting_day": "2026-10-24",
+    "event_number": "11684",
+    "report_code": "GE-2026-10-24"
+  },
+  "provenance": {
+    "source": "Elections BC",
+    "as_of_text": "November 06, 2026 12:00 PCT",
+    "retrieved_at": "2026-11-06T12:26:20-07:00",
+    "candidate_results_url": "https://results.elections.bc.ca/Results_11684_GE-2026-10-24_Candidate.html",
+    "party_results_url": "https://results.elections.bc.ca/Results_11684_GE-2026-10-24_Party.html",
+    "initial_candidate_results_url": "https://results.elections.bc.ca/Results_11684_GE-2026-10-24_Candidate_init_saved.html",
+    "initial_party_results_url": "https://results.elections.bc.ca/Results_11684_GE-2026-10-24_Party_init_saved.html",
+    "live_results_url": "https://results.elections.bc.ca/",
+    "election_page_url": "https://elections.bc.ca/2026-provincial-election/",
+    "final_count_notice_url": "https://elections.bc.ca/news/update-on-preparations-for-final-count/",
+    "maps_page_url": "https://elections.bc.ca/resources/maps/provincial-maps/",
+    "spatial_data_page_url": "https://elections.bc.ca/resources/maps/gis-spatial-data/",
+    "counting_processes_url": "https://electionsbcenr.blob.core.windows.net/electionsbcenr/counting-processes.pdf",
+    "boundaries": {
+      "included": true,
+      "dataset": "Provincial Electoral Districts - Electoral Boundaries Redistribution, 2023",
+      "catalogue_url": "https://catalogue.data.gov.bc.ca/dataset/provincial-electoral-districts-electoral-boundaries-redistribution-2023",
+      "feature_layer": "WHSE_ADMIN_BOUNDARIES.EBC_ELECTORAL_DISTS_BS11_SVW",
+      "service_url": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/whse/bcgw_pub_whse_admin_boundaries/MapServer/74",
+      "licence_name": "Elections BC Open Data Licence",
+      "licence_url": "https://www.elections.bc.ca/docs/EBC-Open-Data-Licence.pdf",
+      "attribution": "Contains information licenced under the Elections BC Open Data Licence",
+      "retrieved_at": "2026-11-06T12:26:20-07:00",
+      "out_sr": "EPSG:4326",
+      "geometry_precision": 5,
+      "max_allowable_offset_degrees": 0.002,
+      "query_url": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/whse/bcgw_pub_whse_admin_boundaries/MapServer/74/query?where=1%3D1&outFields=ED_NAME,ED_ABBREVIATION,ELECTORAL_DISTRICT_ID&returnGeometry=true&outSR=4326&f=geojson&geometryPrecision=5&maxAllowableOffset=0.002",
+      "note": "Coordinates come from the official boundary layer. The warehouse generalized them for this file using maxAllowableOffset of 0.002 degrees and five decimal places. The shapes are for browsing district names. Elections BC says this spatial data must not be used to determine a voter's electoral district."
+    },
+    "rejected_ballot_note": "Rejected ballots are ballots that cannot be counted because they were not marked clearly for one candidate.",
+    "party_column_note": "On the party report, GP is the BC Green Party, NDP is the BC NDP, and CP is the Conservative Party. Other is every remaining affiliation, including independent and unaffiliated candidates.",
+    "share_note": "A candidate's published share is that candidate's votes divided by all votes considered in the district, including rejected ballots. The party table's share of the vote is the share printed by Elections BC.",
+    "margin_note": "The margin is the difference between the two highest published totals in a district. Elections BC does not print that difference.",
+    "affiliation_note": "Some candidate rows have a blank affiliation cell. Those votes match the Unaffiliated line on the party report, and they are labelled Unaffiliated here. The candidate report says Christian Heritage Party of BC. The party report says Christian Heritage Party of B.C. The vote totals match.",
+    "gaps": []
+  },
+  "stage": {
+    "initial_count": {
+      "label": "Initial count",
+      "status": "Complete",
+      "snapshot_url": "https://results.elections.bc.ca/Results_11684_GE-2026-10-24_Candidate_init_saved.html"
+    },
+    "final_count": {
+      "label": "Final count",
+      "status": "In Progress"
+    }
+  },
+  "summary": {
+    "ballot_boxes_reporting": "100%",
+    "preliminary_voter_turnout": "48.21%",
+    "total_votes_considered": 1802047,
+    "registered_voters": 3738182,
+    "registered_voters_as_of": "October 14, 2026",
+    "summary_block_hidden_in_page_style": true,
+    "total_valid_votes": 1797619
+  },
+  "parties": [
+    {
+      "name": "BC Green Party",
+      "districts_leading": 2,
+      "votes": 196956,
+      "vote_share": "10.96%"
+    },
+    {
+      "name": "BC NDP",
+      "districts_leading": 27,
+      "votes": 671803,
+      "vote_share": "37.37%"
+    },
+    {
+      "name": "Conservative Party",
+      "districts_leading": 64,
+      "votes": 864291,
+      "vote_share": "48.08%"
+    },
+    {
+      "name": "CWP",
+      "districts_leading": 0,
+      "votes": 447,
+      "vote_share": "0.02%"
+    },
+    {
+      "name": "CentreBC",
+      "districts_leading": 0,
+      "votes": 29132,
+      "vote_share": "1.62%"
+    },
+    {
+      "name": "Christian Heritage Party of B.C.",
+      "districts_leading": 0,
+      "votes": 459,
+      "vote_share": "0.03%"
+    },
+    {
+      "name": "Communist Party of BC",
+      "districts_leading": 0,
+      "votes": 558,
+      "vote_share": "0.03%"
+    },
+    {
+      "name": "Freedom Party of BC",
+      "districts_leading": 0,
+      "votes": 125,
+      "vote_share": "0.01%"
+    },
+    {
+      "name": "Libertarian",
+      "districts_leading": 0,
+      "votes": 1102,
+      "vote_share": "0.06%"
+    },
+    {
+      "name": "OneBC",
+      "districts_leading": 0,
+      "votes": 26911,
+      "vote_share": "1.50%"
+    },
+    {
+      "name": "Independent",
+      "districts_leading": 0,
+      "votes": 3146,
+      "vote_share": "0.18%"
+    },
+    {
+      "name": "Unaffiliated",
+      "districts_leading": 0,
+      "votes": 2689,
+      "vote_share": "0.15%"
+    }
+  ],
+  "districts": [
+    {
+      "name": "Abbotsford South",
+      "slug": "abbotsford-south",
+      "abbreviation": "ABS",
+      "electoral_district_id": 259,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Leah Ballantyne",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5228,
+          "share": "29.91%"
+        },
+        {
+          "ballot_name": "Bruce Banman",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11052,
+          "share": "63.23%"
+        },
+        {
+          "ballot_name": "Robin Roy",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1146,
+          "share": "6.56%"
+        }
+      ],
+      "total_valid_votes": 17426,
+      "total_valid_share": "99.69%",
+      "rejected_ballots": 54,
+      "rejected_share": "0.31%",
+      "total_considered_votes": 17480,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 5228,
+        "CP": 11052,
+        "Other": 1146
+      },
+      "leading": {
+        "ballot_name": "Bruce Banman",
+        "affiliation": "Conservative Party",
+        "votes": 11052,
+        "share": "63.23%",
+        "margin": 5824
+      },
+      "tied": null
+    },
+    {
+      "name": "Abbotsford West",
+      "slug": "abbotsford-west",
+      "abbreviation": "ABW",
+      "electoral_district_id": 260,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Gurpreet Chahal",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1467,
+          "share": "9.26%"
+        },
+        {
+          "ballot_name": "Jules C&#244;t&#233;",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4555,
+          "share": "28.74%"
+        },
+        {
+          "ballot_name": "Korky Neufeld",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9781,
+          "share": "61.71%"
+        }
+      ],
+      "total_valid_votes": 15803,
+      "total_valid_share": "99.70%",
+      "rejected_ballots": 47,
+      "rejected_share": "0.30%",
+      "total_considered_votes": 15850,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 4555,
+        "CP": 9781,
+        "Other": 1467
+      },
+      "leading": {
+        "ballot_name": "Korky Neufeld",
+        "affiliation": "Conservative Party",
+        "votes": 9781,
+        "share": "61.71%",
+        "margin": 5226
+      },
+      "tied": null
+    },
+    {
+      "name": "Abbotsford-Mission",
+      "slug": "abbotsford-mission",
+      "abbreviation": "ABM",
+      "electoral_district_id": 258,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Pam Alexis",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7497,
+          "share": "35.75%"
+        },
+        {
+          "ballot_name": "Virender Dass",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 534,
+          "share": "2.55%"
+        },
+        {
+          "ballot_name": "Lakhwinder Jhaj",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 735,
+          "share": "3.50%"
+        },
+        {
+          "ballot_name": "Darryl Kropp",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11860,
+          "share": "56.55%"
+        },
+        {
+          "ballot_name": "Jeff Monds",
+          "affiliation": "Libertarian",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 301,
+          "share": "1.44%"
+        }
+      ],
+      "total_valid_votes": 20927,
+      "total_valid_share": "99.78%",
+      "rejected_ballots": 46,
+      "rejected_share": "0.22%",
+      "total_considered_votes": 20973,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 7497,
+        "CP": 11860,
+        "Other": 1570
+      },
+      "leading": {
+        "ballot_name": "Darryl Kropp",
+        "affiliation": "Conservative Party",
+        "votes": 11860,
+        "share": "56.55%",
+        "margin": 4363
+      },
+      "tied": null
+    },
+    {
+      "name": "Boundary-Similkameen",
+      "slug": "boundary-similkameen",
+      "abbreviation": "BDS",
+      "electoral_district_id": 261,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Keith Pomeroy",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1499,
+          "share": "6.83%"
+        },
+        {
+          "ballot_name": "Roly Russell",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8885,
+          "share": "40.46%"
+        },
+        {
+          "ballot_name": "Donegal Wilson",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11510,
+          "share": "52.41%"
+        }
+      ],
+      "total_valid_votes": 21894,
+      "total_valid_share": "99.70%",
+      "rejected_ballots": 66,
+      "rejected_share": "0.30%",
+      "total_considered_votes": 21960,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 8885,
+        "CP": 11510,
+        "Other": 1499
+      },
+      "leading": {
+        "ballot_name": "Donegal Wilson",
+        "affiliation": "Conservative Party",
+        "votes": 11510,
+        "share": "52.41%",
+        "margin": 2625
+      },
+      "tied": null
+    },
+    {
+      "name": "Bulkley Valley-Stikine",
+      "slug": "bulkley-valley-stikine",
+      "abbreviation": "BLS",
+      "electoral_district_id": 262,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Frankie Abel",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3886,
+          "share": "45.48%"
+        },
+        {
+          "ballot_name": "Ed Ewald",
+          "affiliation": "Christian Heritage Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 284,
+          "share": "3.32%"
+        },
+        {
+          "ballot_name": "Sharon Hartwell",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4325,
+          "share": "50.61%"
+        }
+      ],
+      "total_valid_votes": 8495,
+      "total_valid_share": "99.41%",
+      "rejected_ballots": 50,
+      "rejected_share": "0.59%",
+      "total_considered_votes": 8545,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 3886,
+        "CP": 4325,
+        "Other": 284
+      },
+      "leading": {
+        "ballot_name": "Sharon Hartwell",
+        "affiliation": "Conservative Party",
+        "votes": 4325,
+        "share": "50.61%",
+        "margin": 439
+      },
+      "tied": null
+    },
+    {
+      "name": "Burnaby Centre",
+      "slug": "burnaby-centre",
+      "abbreviation": "BNC",
+      "electoral_district_id": 263,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Joshua Domnich",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6775,
+          "share": "47.21%"
+        },
+        {
+          "ballot_name": "Vikas Gautam",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 371,
+          "share": "2.59%"
+        },
+        {
+          "ballot_name": "Anne Kang",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5989,
+          "share": "41.73%"
+        },
+        {
+          "ballot_name": "Shila Taheri",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1170,
+          "share": "8.15%"
+        }
+      ],
+      "total_valid_votes": 14305,
+      "total_valid_share": "99.68%",
+      "rejected_ballots": 46,
+      "rejected_share": "0.32%",
+      "total_considered_votes": 14351,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1170,
+        "NDP": 5989,
+        "CP": 6775,
+        "Other": 371
+      },
+      "leading": {
+        "ballot_name": "Joshua Domnich",
+        "affiliation": "Conservative Party",
+        "votes": 6775,
+        "share": "47.21%",
+        "margin": 786
+      },
+      "tied": null
+    },
+    {
+      "name": "Burnaby East",
+      "slug": "burnaby-east",
+      "abbreviation": "BNE",
+      "electoral_district_id": 264,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Rohini Reah Arora",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7763,
+          "share": "44.32%"
+        },
+        {
+          "ballot_name": "De Ding",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 523,
+          "share": "2.99%"
+        },
+        {
+          "ballot_name": "Javad Shushtarian",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1672,
+          "share": "9.55%"
+        },
+        {
+          "ballot_name": "Peter Si",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7521,
+          "share": "42.94%"
+        }
+      ],
+      "total_valid_votes": 17479,
+      "total_valid_share": "99.79%",
+      "rejected_ballots": 37,
+      "rejected_share": "0.21%",
+      "total_considered_votes": 17516,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1672,
+        "NDP": 7763,
+        "CP": 7521,
+        "Other": 523
+      },
+      "leading": {
+        "ballot_name": "Rohini Reah Arora",
+        "affiliation": "BC NDP",
+        "votes": 7763,
+        "share": "44.32%",
+        "margin": 242
+      },
+      "tied": null
+    },
+    {
+      "name": "Burnaby North",
+      "slug": "burnaby-north",
+      "abbreviation": "BNO",
+      "electoral_district_id": 266,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Simon Chandler",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8270,
+          "share": "46.34%"
+        },
+        {
+          "ballot_name": "Maddy Kennedy-Parrott",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1621,
+          "share": "9.08%"
+        },
+        {
+          "ballot_name": "Janet Routledge",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7491,
+          "share": "41.97%"
+        },
+        {
+          "ballot_name": "Jenny Yamagata",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 415,
+          "share": "2.33%"
+        }
+      ],
+      "total_valid_votes": 17797,
+      "total_valid_share": "99.72%",
+      "rejected_ballots": 50,
+      "rejected_share": "0.28%",
+      "total_considered_votes": 17847,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1621,
+        "NDP": 7491,
+        "CP": 8270,
+        "Other": 415
+      },
+      "leading": {
+        "ballot_name": "Simon Chandler",
+        "affiliation": "Conservative Party",
+        "votes": 8270,
+        "share": "46.34%",
+        "margin": 779
+      },
+      "tied": null
+    },
+    {
+      "name": "Burnaby South-Metrotown",
+      "slug": "burnaby-south-metrotown",
+      "abbreviation": "BNS",
+      "electoral_district_id": 267,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Paul Choi",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5819,
+          "share": "44.22%"
+        },
+        {
+          "ballot_name": "Bryan Fockler",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1154,
+          "share": "8.77%"
+        },
+        {
+          "ballot_name": "Andrew Rose",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 377,
+          "share": "2.86%"
+        },
+        {
+          "ballot_name": "David Xie",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5749,
+          "share": "43.69%"
+        }
+      ],
+      "total_valid_votes": 13099,
+      "total_valid_share": "99.54%",
+      "rejected_ballots": 60,
+      "rejected_share": "0.46%",
+      "total_considered_votes": 13159,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1154,
+        "NDP": 5819,
+        "CP": 5749,
+        "Other": 377
+      },
+      "leading": {
+        "ballot_name": "Paul Choi",
+        "affiliation": "BC NDP",
+        "votes": 5819,
+        "share": "44.22%",
+        "margin": 70
+      },
+      "tied": null
+    },
+    {
+      "name": "Burnaby-New Westminster",
+      "slug": "burnaby-new-westminster",
+      "abbreviation": "BNN",
+      "electoral_district_id": 265,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Raj Chouhan",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7759,
+          "share": "53.94%"
+        },
+        {
+          "ballot_name": "Joe Latam",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6138,
+          "share": "42.67%"
+        }
+      ],
+      "total_valid_votes": 13897,
+      "total_valid_share": "96.61%",
+      "rejected_ballots": 487,
+      "rejected_share": "3.39%",
+      "total_considered_votes": 14384,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 7759,
+        "CP": 6138,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Raj Chouhan",
+        "affiliation": "BC NDP",
+        "votes": 7759,
+        "share": "53.94%",
+        "margin": 1621
+      },
+      "tied": null
+    },
+    {
+      "name": "Cariboo-Chilcotin",
+      "slug": "cariboo-chilcotin",
+      "abbreviation": "CBC",
+      "electoral_district_id": 268,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kathryn Askew",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3127,
+          "share": "16.89%"
+        },
+        {
+          "ballot_name": "Lorne Doerkson",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 14232,
+          "share": "76.88%"
+        },
+        {
+          "ballot_name": "Douglas Gook",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1105,
+          "share": "5.97%"
+        }
+      ],
+      "total_valid_votes": 18464,
+      "total_valid_share": "99.74%",
+      "rejected_ballots": 48,
+      "rejected_share": "0.26%",
+      "total_considered_votes": 18512,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1105,
+        "NDP": 3127,
+        "CP": 14232,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Lorne Doerkson",
+        "affiliation": "Conservative Party",
+        "votes": 14232,
+        "share": "76.88%",
+        "margin": 11105
+      },
+      "tied": null
+    },
+    {
+      "name": "Chilliwack North",
+      "slug": "chilliwack-north",
+      "abbreviation": "CHN",
+      "electoral_district_id": 270,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Dan Grice",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1328,
+          "share": "7.48%"
+        },
+        {
+          "ballot_name": "Heather Maahs",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10553,
+          "share": "59.42%"
+        },
+        {
+          "ballot_name": "Adila Shaukat",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5843,
+          "share": "32.90%"
+        }
+      ],
+      "total_valid_votes": 17724,
+      "total_valid_share": "99.80%",
+      "rejected_ballots": 36,
+      "rejected_share": "0.20%",
+      "total_considered_votes": 17760,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 5843,
+        "CP": 10553,
+        "Other": 1328
+      },
+      "leading": {
+        "ballot_name": "Heather Maahs",
+        "affiliation": "Conservative Party",
+        "votes": 10553,
+        "share": "59.42%",
+        "margin": 4710
+      },
+      "tied": null
+    },
+    {
+      "name": "Chilliwack-Cultus Lake",
+      "slug": "chilliwack-cultus-lake",
+      "abbreviation": "CHC",
+      "electoral_district_id": 269,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kelli Paddon",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8615,
+          "share": "39.76%"
+        },
+        {
+          "ballot_name": "A&#39;aliya Warbus",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12975,
+          "share": "59.88%"
+        }
+      ],
+      "total_valid_votes": 21590,
+      "total_valid_share": "99.64%",
+      "rejected_ballots": 79,
+      "rejected_share": "0.36%",
+      "total_considered_votes": 21669,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 8615,
+        "CP": 12975,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "A&#39;aliya Warbus",
+        "affiliation": "Conservative Party",
+        "votes": 12975,
+        "share": "59.88%",
+        "margin": 4360
+      },
+      "tied": null
+    },
+    {
+      "name": "Columbia River-Revelstoke",
+      "slug": "columbia-river-revelstoke",
+      "abbreviation": "CLR",
+      "electoral_district_id": 271,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Andrea Dunlop",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6157,
+          "share": "35.81%"
+        },
+        {
+          "ballot_name": "Scott McInnis",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9038,
+          "share": "52.56%"
+        },
+        {
+          "ballot_name": "Rana Nelson",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1975,
+          "share": "11.49%"
+        }
+      ],
+      "total_valid_votes": 17170,
+      "total_valid_share": "99.85%",
+      "rejected_ballots": 25,
+      "rejected_share": "0.15%",
+      "total_considered_votes": 17195,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1975,
+        "NDP": 6157,
+        "CP": 9038,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Scott McInnis",
+        "affiliation": "Conservative Party",
+        "votes": 9038,
+        "share": "52.56%",
+        "margin": 2881
+      },
+      "tied": null
+    },
+    {
+      "name": "Coquitlam-Burke Mountain",
+      "slug": "coquitlam-burke-mountain",
+      "abbreviation": "CQB",
+      "electoral_district_id": 272,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kaden Mann",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 411,
+          "share": "2.19%"
+        },
+        {
+          "ballot_name": "Valerie Morrison",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1113,
+          "share": "5.93%"
+        },
+        {
+          "ballot_name": "Ryan Peterson",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9853,
+          "share": "52.48%"
+        },
+        {
+          "ballot_name": "Jodie Wickens",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7366,
+          "share": "39.24%"
+        }
+      ],
+      "total_valid_votes": 18743,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 30,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 18773,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1113,
+        "NDP": 7366,
+        "CP": 9853,
+        "Other": 411
+      },
+      "leading": {
+        "ballot_name": "Ryan Peterson",
+        "affiliation": "Conservative Party",
+        "votes": 9853,
+        "share": "52.48%",
+        "margin": 2487
+      },
+      "tied": null
+    },
+    {
+      "name": "Coquitlam-Maillardville",
+      "slug": "coquitlam-maillardville",
+      "abbreviation": "CQM",
+      "electoral_district_id": 273,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Jennifer Blatherwick",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8064,
+          "share": "41.40%"
+        },
+        {
+          "ballot_name": "Matt Liang",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9635,
+          "share": "49.47%"
+        },
+        {
+          "ballot_name": "Nicola Spurling",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1742,
+          "share": "8.94%"
+        }
+      ],
+      "total_valid_votes": 19441,
+      "total_valid_share": "99.81%",
+      "rejected_ballots": 37,
+      "rejected_share": "0.19%",
+      "total_considered_votes": 19478,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1742,
+        "NDP": 8064,
+        "CP": 9635,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Matt Liang",
+        "affiliation": "Conservative Party",
+        "votes": 9635,
+        "share": "49.47%",
+        "margin": 1571
+      },
+      "tied": null
+    },
+    {
+      "name": "Courtenay-Comox",
+      "slug": "courtenay-comox",
+      "abbreviation": "CRC",
+      "electoral_district_id": 274,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Will Cole-Hamilton",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 13342,
+          "share": "45.02%"
+        },
+        {
+          "ballot_name": "Jason Cook",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 738,
+          "share": "2.49%"
+        },
+        {
+          "ballot_name": "Brennan Day",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12666,
+          "share": "42.74%"
+        },
+        {
+          "ballot_name": "Jay Van Oostdam",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2871,
+          "share": "9.69%"
+        }
+      ],
+      "total_valid_votes": 29617,
+      "total_valid_share": "99.95%",
+      "rejected_ballots": 16,
+      "rejected_share": "0.05%",
+      "total_considered_votes": 29633,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2871,
+        "NDP": 13342,
+        "CP": 12666,
+        "Other": 738
+      },
+      "leading": {
+        "ballot_name": "Will Cole-Hamilton",
+        "affiliation": "BC NDP",
+        "votes": 13342,
+        "share": "45.02%",
+        "margin": 676
+      },
+      "tied": null
+    },
+    {
+      "name": "Cowichan Valley",
+      "slug": "cowichan-valley",
+      "abbreviation": "CWV",
+      "electoral_district_id": 275,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Bert Chen",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11104,
+          "share": "42.80%"
+        },
+        {
+          "ballot_name": "James Chumsa",
+          "affiliation": "Communist Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 99,
+          "share": "0.38%"
+        },
+        {
+          "ballot_name": "Justin Douglas",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3752,
+          "share": "14.46%"
+        },
+        {
+          "ballot_name": "Debra Toporowski",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10950,
+          "share": "42.20%"
+        }
+      ],
+      "total_valid_votes": 25905,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 41,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 25946,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3752,
+        "NDP": 10950,
+        "CP": 11104,
+        "Other": 99
+      },
+      "leading": {
+        "ballot_name": "Bert Chen",
+        "affiliation": "Conservative Party",
+        "votes": 11104,
+        "share": "42.80%",
+        "margin": 154
+      },
+      "tied": null
+    },
+    {
+      "name": "Delta North",
+      "slug": "delta-north",
+      "abbreviation": "DLN",
+      "electoral_district_id": 276,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Monica Mohan",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9797,
+          "share": "53.41%"
+        },
+        {
+          "ballot_name": "Kuldeep Rangi",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1062,
+          "share": "5.79%"
+        },
+        {
+          "ballot_name": "Todd Schierling",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7430,
+          "share": "40.50%"
+        }
+      ],
+      "total_valid_votes": 18289,
+      "total_valid_share": "99.70%",
+      "rejected_ballots": 55,
+      "rejected_share": "0.30%",
+      "total_considered_votes": 18344,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 7430,
+        "CP": 9797,
+        "Other": 1062
+      },
+      "leading": {
+        "ballot_name": "Monica Mohan",
+        "affiliation": "Conservative Party",
+        "votes": 9797,
+        "share": "53.41%",
+        "margin": 2367
+      },
+      "tied": null
+    },
+    {
+      "name": "Delta South",
+      "slug": "delta-south",
+      "abbreviation": "DLS",
+      "electoral_district_id": 277,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Skadi Green",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1992,
+          "share": "8.21%"
+        },
+        {
+          "ballot_name": "Jason McCormick",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6928,
+          "share": "28.56%"
+        },
+        {
+          "ballot_name": "Jim McMurtry",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 799,
+          "share": "3.29%"
+        },
+        {
+          "ballot_name": "Ian Paton",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 14505,
+          "share": "59.80%"
+        }
+      ],
+      "total_valid_votes": 24224,
+      "total_valid_share": "99.87%",
+      "rejected_ballots": 32,
+      "rejected_share": "0.13%",
+      "total_considered_votes": 24256,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1992,
+        "NDP": 6928,
+        "CP": 14505,
+        "Other": 799
+      },
+      "leading": {
+        "ballot_name": "Ian Paton",
+        "affiliation": "Conservative Party",
+        "votes": 14505,
+        "share": "59.80%",
+        "margin": 7577
+      },
+      "tied": null
+    },
+    {
+      "name": "Esquimalt-Colwood",
+      "slug": "esquimalt-colwood",
+      "abbreviation": "ESC",
+      "electoral_district_id": 278,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Sidney Coles",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5774,
+          "share": "22.73%"
+        },
+        {
+          "ballot_name": "Dave Johnston",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7404,
+          "share": "29.15%"
+        },
+        {
+          "ballot_name": "Darlene Rotchford",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10972,
+          "share": "43.20%"
+        },
+        {
+          "ballot_name": "Sid Tobias",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1216,
+          "share": "4.79%"
+        }
+      ],
+      "total_valid_votes": 25366,
+      "total_valid_share": "99.87%",
+      "rejected_ballots": 32,
+      "rejected_share": "0.13%",
+      "total_considered_votes": 25398,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 5774,
+        "NDP": 10972,
+        "CP": 7404,
+        "Other": 1216
+      },
+      "leading": {
+        "ballot_name": "Darlene Rotchford",
+        "affiliation": "BC NDP",
+        "votes": 10972,
+        "share": "43.20%",
+        "margin": 3568
+      },
+      "tied": null
+    },
+    {
+      "name": "Fraser-Nicola",
+      "slug": "fraser-nicola",
+      "abbreviation": "FRN",
+      "electoral_district_id": 279,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Jason Leboe",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4819,
+          "share": "28.40%"
+        },
+        {
+          "ballot_name": "Tony Luck",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9895,
+          "share": "58.32%"
+        },
+        {
+          "ballot_name": "Patrick Michell",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2221,
+          "share": "13.09%"
+        }
+      ],
+      "total_valid_votes": 16935,
+      "total_valid_share": "99.81%",
+      "rejected_ballots": 33,
+      "rejected_share": "0.19%",
+      "total_considered_votes": 16968,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2221,
+        "NDP": 4819,
+        "CP": 9895,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Tony Luck",
+        "affiliation": "Conservative Party",
+        "votes": 9895,
+        "share": "58.32%",
+        "margin": 5076
+      },
+      "tied": null
+    },
+    {
+      "name": "Juan de Fuca-Malahat",
+      "slug": "juan-de-fuca-malahat",
+      "abbreviation": "JFM",
+      "electoral_district_id": 280,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Jeff Brown",
+          "affiliation": "Christian Heritage Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 60,
+          "share": "0.27%"
+        },
+        {
+          "ballot_name": "David Evans",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3880,
+          "share": "17.44%"
+        },
+        {
+          "ballot_name": "Shane Friesen",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 553,
+          "share": "2.49%"
+        },
+        {
+          "ballot_name": "Mike Hicks",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9252,
+          "share": "41.59%"
+        },
+        {
+          "ballot_name": "Dana Lajeunesse",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8480,
+          "share": "38.12%"
+        }
+      ],
+      "total_valid_votes": 22225,
+      "total_valid_share": "99.91%",
+      "rejected_ballots": 21,
+      "rejected_share": "0.09%",
+      "total_considered_votes": 22246,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3880,
+        "NDP": 8480,
+        "CP": 9252,
+        "Other": 613
+      },
+      "leading": {
+        "ballot_name": "Mike Hicks",
+        "affiliation": "Conservative Party",
+        "votes": 9252,
+        "share": "41.59%",
+        "margin": 772
+      },
+      "tied": null
+    },
+    {
+      "name": "Kamloops Centre",
+      "slug": "kamloops-centre",
+      "abbreviation": "KAC",
+      "electoral_district_id": 281,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Annelise Beach",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2484,
+          "share": "11.23%"
+        },
+        {
+          "ballot_name": "Rocky McAfee",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 818,
+          "share": "3.70%"
+        },
+        {
+          "ballot_name": "Peter Milobar",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11789,
+          "share": "53.30%"
+        },
+        {
+          "ballot_name": "Thaelo Proctor",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 243,
+          "share": "1.10%"
+        },
+        {
+          "ballot_name": "Mike Wisla",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6763,
+          "share": "30.57%"
+        }
+      ],
+      "total_valid_votes": 22097,
+      "total_valid_share": "99.90%",
+      "rejected_ballots": 23,
+      "rejected_share": "0.10%",
+      "total_considered_votes": 22120,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2484,
+        "NDP": 6763,
+        "CP": 11789,
+        "Other": 1061
+      },
+      "leading": {
+        "ballot_name": "Peter Milobar",
+        "affiliation": "Conservative Party",
+        "votes": 11789,
+        "share": "53.30%",
+        "margin": 5026
+      },
+      "tied": null
+    },
+    {
+      "name": "Kamloops-North Thompson",
+      "slug": "kamloops-north-thompson",
+      "abbreviation": "KAN",
+      "electoral_district_id": 282,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kory Clark",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7618,
+          "share": "28.63%"
+        },
+        {
+          "ballot_name": "Deborah Friesen",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1670,
+          "share": "6.28%"
+        },
+        {
+          "ballot_name": "Ward Stamer",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 17241,
+          "share": "64.79%"
+        }
+      ],
+      "total_valid_votes": 26529,
+      "total_valid_share": "99.70%",
+      "rejected_ballots": 80,
+      "rejected_share": "0.30%",
+      "total_considered_votes": 26609,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 7618,
+        "CP": 17241,
+        "Other": 1670
+      },
+      "leading": {
+        "ballot_name": "Ward Stamer",
+        "affiliation": "Conservative Party",
+        "votes": 17241,
+        "share": "64.79%",
+        "margin": 9623
+      },
+      "tied": null
+    },
+    {
+      "name": "Kelowna Centre",
+      "slug": "kelowna-centre",
+      "abbreviation": "KEC",
+      "electoral_district_id": 283,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Bill Desrosiers",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 870,
+          "share": "3.86%"
+        },
+        {
+          "ballot_name": "Kristina Loewen",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10884,
+          "share": "48.24%"
+        },
+        {
+          "ballot_name": "Loyal Wooldridge",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10745,
+          "share": "47.63%"
+        }
+      ],
+      "total_valid_votes": 22499,
+      "total_valid_share": "99.73%",
+      "rejected_ballots": 62,
+      "rejected_share": "0.27%",
+      "total_considered_votes": 22561,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 10745,
+        "CP": 10884,
+        "Other": 870
+      },
+      "leading": {
+        "ballot_name": "Kristina Loewen",
+        "affiliation": "Conservative Party",
+        "votes": 10884,
+        "share": "48.24%",
+        "margin": 139
+      },
+      "tied": null
+    },
+    {
+      "name": "Kelowna-Lake Country-Coldstream",
+      "slug": "kelowna-lake-country-coldstream",
+      "abbreviation": "KLC",
+      "electoral_district_id": 284,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Binny Boparai",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7277,
+          "share": "32.54%"
+        },
+        {
+          "ballot_name": "Carter Mochinski",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1827,
+          "share": "8.17%"
+        },
+        {
+          "ballot_name": "Pavneet Singh",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10672,
+          "share": "47.73%"
+        },
+        {
+          "ballot_name": "Alexandra Wright",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2542,
+          "share": "11.37%"
+        }
+      ],
+      "total_valid_votes": 22318,
+      "total_valid_share": "99.81%",
+      "rejected_ballots": 42,
+      "rejected_share": "0.19%",
+      "total_considered_votes": 22360,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1827,
+        "NDP": 7277,
+        "CP": 10672,
+        "Other": 2542
+      },
+      "leading": {
+        "ballot_name": "Pavneet Singh",
+        "affiliation": "Conservative Party",
+        "votes": 10672,
+        "share": "47.73%",
+        "margin": 3395
+      },
+      "tied": null
+    },
+    {
+      "name": "Kelowna-Mission",
+      "slug": "kelowna-mission",
+      "abbreviation": "KLM",
+      "electoral_district_id": 285,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Gavin Dew",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 13600,
+          "share": "58.69%"
+        },
+        {
+          "ballot_name": "Saoirse MacKinnon",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2356,
+          "share": "10.17%"
+        },
+        {
+          "ballot_name": "Abraham Nordine",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 757,
+          "share": "3.27%"
+        },
+        {
+          "ballot_name": "Miriam Rycroft",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6430,
+          "share": "27.75%"
+        }
+      ],
+      "total_valid_votes": 23143,
+      "total_valid_share": "99.87%",
+      "rejected_ballots": 31,
+      "rejected_share": "0.13%",
+      "total_considered_votes": 23174,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2356,
+        "NDP": 6430,
+        "CP": 13600,
+        "Other": 757
+      },
+      "leading": {
+        "ballot_name": "Gavin Dew",
+        "affiliation": "Conservative Party",
+        "votes": 13600,
+        "share": "58.69%",
+        "margin": 7170
+      },
+      "tied": null
+    },
+    {
+      "name": "Kootenay Central",
+      "slug": "kootenay-central",
+      "abbreviation": "KOC",
+      "electoral_district_id": 286,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Brittny Anderson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7622,
+          "share": "39.40%"
+        },
+        {
+          "ballot_name": "Nicole Charlwood",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3785,
+          "share": "19.57%"
+        },
+        {
+          "ballot_name": "Hunter Corrigal",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 730,
+          "share": "3.77%"
+        },
+        {
+          "ballot_name": "Gordon Skulnec",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7158,
+          "share": "37.00%"
+        }
+      ],
+      "total_valid_votes": 19295,
+      "total_valid_share": "99.74%",
+      "rejected_ballots": 50,
+      "rejected_share": "0.26%",
+      "total_considered_votes": 19345,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3785,
+        "NDP": 7622,
+        "CP": 7158,
+        "Other": 730
+      },
+      "leading": {
+        "ballot_name": "Brittny Anderson",
+        "affiliation": "BC NDP",
+        "votes": 7622,
+        "share": "39.40%",
+        "margin": 464
+      },
+      "tied": null
+    },
+    {
+      "name": "Kootenay-Monashee",
+      "slug": "kootenay-monashee",
+      "abbreviation": "KOM",
+      "electoral_district_id": 287,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Stephen Hill",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 771,
+          "share": "4.34%"
+        },
+        {
+          "ballot_name": "Connie Larochelle",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1823,
+          "share": "10.25%"
+        },
+        {
+          "ballot_name": "Warren Mirko",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6633,
+          "share": "37.31%"
+        },
+        {
+          "ballot_name": "Steve Morissette",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8530,
+          "share": "47.98%"
+        }
+      ],
+      "total_valid_votes": 17757,
+      "total_valid_share": "99.87%",
+      "rejected_ballots": 23,
+      "rejected_share": "0.13%",
+      "total_considered_votes": 17780,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1823,
+        "NDP": 8530,
+        "CP": 6633,
+        "Other": 771
+      },
+      "leading": {
+        "ballot_name": "Steve Morissette",
+        "affiliation": "BC NDP",
+        "votes": 8530,
+        "share": "47.98%",
+        "margin": 1897
+      },
+      "tied": null
+    },
+    {
+      "name": "Kootenay-Rockies",
+      "slug": "kootenay-rockies",
+      "abbreviation": "KOR",
+      "electoral_district_id": 288,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Norma Blissett",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4438,
+          "share": "27.17%"
+        },
+        {
+          "ballot_name": "Pete Davis",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9175,
+          "share": "56.16%"
+        },
+        {
+          "ballot_name": "Keenan Dennehy",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1178,
+          "share": "7.21%"
+        },
+        {
+          "ballot_name": "Paul Heywood",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 651,
+          "share": "3.98%"
+        },
+        {
+          "ballot_name": "AJ Wolfe",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 868,
+          "share": "5.31%"
+        }
+      ],
+      "total_valid_votes": 16310,
+      "total_valid_share": "99.83%",
+      "rejected_ballots": 27,
+      "rejected_share": "0.17%",
+      "total_considered_votes": 16337,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1178,
+        "NDP": 4438,
+        "CP": 9175,
+        "Other": 1519
+      },
+      "leading": {
+        "ballot_name": "Pete Davis",
+        "affiliation": "Conservative Party",
+        "votes": 9175,
+        "share": "56.16%",
+        "margin": 4737
+      },
+      "tied": null
+    },
+    {
+      "name": "Ladysmith-Oceanside",
+      "slug": "ladysmith-oceanside",
+      "abbreviation": "LAO",
+      "electoral_district_id": 289,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Stephanie Higginson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 13331,
+          "share": "44.20%"
+        },
+        {
+          "ballot_name": "Kris McNichol",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 13426,
+          "share": "44.51%"
+        },
+        {
+          "ballot_name": "Charlene Smylie",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3366,
+          "share": "11.16%"
+        }
+      ],
+      "total_valid_votes": 30123,
+      "total_valid_share": "99.87%",
+      "rejected_ballots": 40,
+      "rejected_share": "0.13%",
+      "total_considered_votes": 30163,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3366,
+        "NDP": 13331,
+        "CP": 13426,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Kris McNichol",
+        "affiliation": "Conservative Party",
+        "votes": 13426,
+        "share": "44.51%",
+        "margin": 95
+      },
+      "tied": null
+    },
+    {
+      "name": "Langford-Highlands",
+      "slug": "langford-highlands",
+      "abbreviation": "LFH",
+      "electoral_district_id": 290,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Sean Flynn",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 430,
+          "share": "2.20%"
+        },
+        {
+          "ballot_name": "Christian McCay",
+          "affiliation": "Christian Heritage Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 115,
+          "share": "0.59%"
+        },
+        {
+          "ballot_name": "Christopher Moon",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2551,
+          "share": "13.05%"
+        },
+        {
+          "ballot_name": "Ravi Parmar",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8740,
+          "share": "44.72%"
+        },
+        {
+          "ballot_name": "Cindy Scott",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7593,
+          "share": "38.85%"
+        },
+        {
+          "ballot_name": "Alex Thurlborn",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 99,
+          "share": "0.51%"
+        }
+      ],
+      "total_valid_votes": 19528,
+      "total_valid_share": "99.91%",
+      "rejected_ballots": 17,
+      "rejected_share": "0.09%",
+      "total_considered_votes": 19545,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2551,
+        "NDP": 8740,
+        "CP": 7593,
+        "Other": 644
+      },
+      "leading": {
+        "ballot_name": "Ravi Parmar",
+        "affiliation": "BC NDP",
+        "votes": 8740,
+        "share": "44.72%",
+        "margin": 1147
+      },
+      "tied": null
+    },
+    {
+      "name": "Langley-Abbotsford",
+      "slug": "langley-abbotsford",
+      "abbreviation": "LLA",
+      "electoral_district_id": 291,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Harman Bhangu",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 13588,
+          "share": "61.51%"
+        },
+        {
+          "ballot_name": "Shelly Jan",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1008,
+          "share": "4.56%"
+        },
+        {
+          "ballot_name": "Alex Joehl",
+          "affiliation": "Libertarian",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 304,
+          "share": "1.38%"
+        },
+        {
+          "ballot_name": "Erin Osborne",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5249,
+          "share": "23.76%"
+        },
+        {
+          "ballot_name": "Melissa Snazell",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1880,
+          "share": "8.51%"
+        }
+      ],
+      "total_valid_votes": 22029,
+      "total_valid_share": "99.73%",
+      "rejected_ballots": 60,
+      "rejected_share": "0.27%",
+      "total_considered_votes": 22089,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1880,
+        "NDP": 5249,
+        "CP": 13588,
+        "Other": 1312
+      },
+      "leading": {
+        "ballot_name": "Harman Bhangu",
+        "affiliation": "Conservative Party",
+        "votes": 13588,
+        "share": "61.51%",
+        "margin": 8339
+      },
+      "tied": null
+    },
+    {
+      "name": "Langley-Walnut Grove",
+      "slug": "langley-walnut-grove",
+      "abbreviation": "LWG",
+      "electoral_district_id": 292,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Holly Isaac",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6849,
+          "share": "31.57%"
+        },
+        {
+          "ballot_name": "Sam Meyer",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1562,
+          "share": "7.20%"
+        },
+        {
+          "ballot_name": "Kyle Stevenson",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 944,
+          "share": "4.35%"
+        },
+        {
+          "ballot_name": "Misty Van Popta",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12324,
+          "share": "56.80%"
+        }
+      ],
+      "total_valid_votes": 21679,
+      "total_valid_share": "99.92%",
+      "rejected_ballots": 18,
+      "rejected_share": "0.08%",
+      "total_considered_votes": 21697,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1562,
+        "NDP": 6849,
+        "CP": 12324,
+        "Other": 944
+      },
+      "leading": {
+        "ballot_name": "Misty Van Popta",
+        "affiliation": "Conservative Party",
+        "votes": 12324,
+        "share": "56.80%",
+        "margin": 5475
+      },
+      "tied": null
+    },
+    {
+      "name": "Langley-Willowbrook",
+      "slug": "langley-willowbrook",
+      "abbreviation": "LWI",
+      "electoral_district_id": 293,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Shubham Joshi",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 704,
+          "share": "3.68%"
+        },
+        {
+          "ballot_name": "Andrew Mercier",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6892,
+          "share": "35.98%"
+        },
+        {
+          "ballot_name": "Anisha Sandhu",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1497,
+          "share": "7.82%"
+        },
+        {
+          "ballot_name": "Jody Toor",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10019,
+          "share": "52.31%"
+        }
+      ],
+      "total_valid_votes": 19112,
+      "total_valid_share": "99.79%",
+      "rejected_ballots": 41,
+      "rejected_share": "0.21%",
+      "total_considered_votes": 19153,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1497,
+        "NDP": 6892,
+        "CP": 10019,
+        "Other": 704
+      },
+      "leading": {
+        "ballot_name": "Jody Toor",
+        "affiliation": "Conservative Party",
+        "votes": 10019,
+        "share": "52.31%",
+        "margin": 3127
+      },
+      "tied": null
+    },
+    {
+      "name": "Maple Ridge East",
+      "slug": "maple-ridge-east",
+      "abbreviation": "MAE",
+      "electoral_district_id": 294,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Hudson Campbell",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8405,
+          "share": "37.25%"
+        },
+        {
+          "ballot_name": "Chris Hatchwell",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 331,
+          "share": "1.47%"
+        },
+        {
+          "ballot_name": "Daniel Kite",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1711,
+          "share": "7.58%"
+        },
+        {
+          "ballot_name": "Lawrence Mok",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12074,
+          "share": "53.51%"
+        }
+      ],
+      "total_valid_votes": 22521,
+      "total_valid_share": "99.82%",
+      "rejected_ballots": 41,
+      "rejected_share": "0.18%",
+      "total_considered_votes": 22562,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1711,
+        "NDP": 8405,
+        "CP": 12074,
+        "Other": 331
+      },
+      "leading": {
+        "ballot_name": "Lawrence Mok",
+        "affiliation": "Conservative Party",
+        "votes": 12074,
+        "share": "53.51%",
+        "margin": 3669
+      },
+      "tied": null
+    },
+    {
+      "name": "Maple Ridge-Pitt Meadows",
+      "slug": "maple-ridge-pitt-meadows",
+      "abbreviation": "MAP",
+      "electoral_district_id": 295,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Lisa Beare",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9997,
+          "share": "44.45%"
+        },
+        {
+          "ballot_name": "Susan Einarsson",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 772,
+          "share": "3.43%"
+        },
+        {
+          "ballot_name": "Doug Morneau",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10842,
+          "share": "48.21%"
+        },
+        {
+          "ballot_name": "Jordan Simmons",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 821,
+          "share": "3.65%"
+        }
+      ],
+      "total_valid_votes": 22432,
+      "total_valid_share": "99.75%",
+      "rejected_ballots": 56,
+      "rejected_share": "0.25%",
+      "total_considered_votes": 22488,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 9997,
+        "CP": 10842,
+        "Other": 1593
+      },
+      "leading": {
+        "ballot_name": "Doug Morneau",
+        "affiliation": "Conservative Party",
+        "votes": 10842,
+        "share": "48.21%",
+        "margin": 845
+      },
+      "tied": null
+    },
+    {
+      "name": "Mid Island-Pacific Rim",
+      "slug": "mid-island-pacific-rim",
+      "abbreviation": "MPR",
+      "electoral_district_id": 296,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Joshua Dahling",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10304,
+          "share": "40.45%"
+        },
+        {
+          "ballot_name": "Gracie MacDonald",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3207,
+          "share": "12.59%"
+        },
+        {
+          "ballot_name": "Josie Osborne",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11918,
+          "share": "46.79%"
+        }
+      ],
+      "total_valid_votes": 25429,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 42,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 25471,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3207,
+        "NDP": 11918,
+        "CP": 10304,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Josie Osborne",
+        "affiliation": "BC NDP",
+        "votes": 11918,
+        "share": "46.79%",
+        "margin": 1614
+      },
+      "tied": null
+    },
+    {
+      "name": "Nanaimo-Gabriola Island",
+      "slug": "nanaimo-gabriola-island",
+      "abbreviation": "NAI",
+      "electoral_district_id": 297,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Mark MacDonald",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8266,
+          "share": "35.80%"
+        },
+        {
+          "ballot_name": "Sheila Malcolmson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11085,
+          "share": "48.01%"
+        },
+        {
+          "ballot_name": "Anna Mary McKenzie",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3695,
+          "share": "16.00%"
+        }
+      ],
+      "total_valid_votes": 23046,
+      "total_valid_share": "99.81%",
+      "rejected_ballots": 45,
+      "rejected_share": "0.19%",
+      "total_considered_votes": 23091,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3695,
+        "NDP": 11085,
+        "CP": 8266,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Sheila Malcolmson",
+        "affiliation": "BC NDP",
+        "votes": 11085,
+        "share": "48.01%",
+        "margin": 2819
+      },
+      "tied": null
+    },
+    {
+      "name": "Nanaimo-Lantzville",
+      "slug": "nanaimo-lantzville",
+      "abbreviation": "NAL",
+      "electoral_district_id": 298,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "George Anderson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11567,
+          "share": "46.58%"
+        },
+        {
+          "ballot_name": "Kelsey Pringle",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10702,
+          "share": "43.10%"
+        },
+        {
+          "ballot_name": "Pepper Saltman",
+          "affiliation": "Communist Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 76,
+          "share": "0.31%"
+        },
+        {
+          "ballot_name": "Sharleen Weatherley",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2449,
+          "share": "9.86%"
+        }
+      ],
+      "total_valid_votes": 24794,
+      "total_valid_share": "99.85%",
+      "rejected_ballots": 38,
+      "rejected_share": "0.15%",
+      "total_considered_votes": 24832,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2449,
+        "NDP": 11567,
+        "CP": 10702,
+        "Other": 76
+      },
+      "leading": {
+        "ballot_name": "George Anderson",
+        "affiliation": "BC NDP",
+        "votes": 11567,
+        "share": "46.58%",
+        "margin": 865
+      },
+      "tied": null
+    },
+    {
+      "name": "Nechako Lakes",
+      "slug": "nechako-lakes",
+      "abbreviation": "NEC",
+      "electoral_district_id": 299,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Diane Black",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5983,
+          "share": "63.59%"
+        },
+        {
+          "ballot_name": "Jesse Gervais",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2182,
+          "share": "23.19%"
+        },
+        {
+          "ballot_name": "Clint Lambert",
+          "affiliation": "Unaffiliated",
+          "affiliation_blank_on_candidate_report": true,
+          "votes": 1228,
+          "share": "13.05%"
+        }
+      ],
+      "total_valid_votes": 9393,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 15,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 9408,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 2182,
+        "CP": 5983,
+        "Other": 1228
+      },
+      "leading": {
+        "ballot_name": "Diane Black",
+        "affiliation": "Conservative Party",
+        "votes": 5983,
+        "share": "63.59%",
+        "margin": 3801
+      },
+      "tied": null
+    },
+    {
+      "name": "New Westminster-Coquitlam",
+      "slug": "new-westminster-coquitlam",
+      "abbreviation": "NMC",
+      "electoral_district_id": 300,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Maureen Curran",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2841,
+          "share": "15.32%"
+        },
+        {
+          "ballot_name": "Michele Lau",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6319,
+          "share": "34.08%"
+        },
+        {
+          "ballot_name": "Jennifer Whiteside",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9289,
+          "share": "50.09%"
+        }
+      ],
+      "total_valid_votes": 18449,
+      "total_valid_share": "99.49%",
+      "rejected_ballots": 94,
+      "rejected_share": "0.51%",
+      "total_considered_votes": 18543,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2841,
+        "NDP": 9289,
+        "CP": 6319,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Jennifer Whiteside",
+        "affiliation": "BC NDP",
+        "votes": 9289,
+        "share": "50.09%",
+        "margin": 2970
+      },
+      "tied": null
+    },
+    {
+      "name": "North Coast-Haida Gwaii",
+      "slug": "north-coast-haida-gwaii",
+      "abbreviation": "NOH",
+      "electoral_district_id": 301,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Tamara Davidson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4087,
+          "share": "61.51%"
+        },
+        {
+          "ballot_name": "Rodney Proskiw",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1897,
+          "share": "28.55%"
+        },
+        {
+          "ballot_name": "Francis Racy",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 632,
+          "share": "9.51%"
+        }
+      ],
+      "total_valid_votes": 6616,
+      "total_valid_share": "99.58%",
+      "rejected_ballots": 28,
+      "rejected_share": "0.42%",
+      "total_considered_votes": 6644,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 632,
+        "NDP": 4087,
+        "CP": 1897,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Tamara Davidson",
+        "affiliation": "BC NDP",
+        "votes": 4087,
+        "share": "61.51%",
+        "margin": 2190
+      },
+      "tied": null
+    },
+    {
+      "name": "North Island",
+      "slug": "north-island",
+      "abbreviation": "NOI",
+      "electoral_district_id": 302,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Anna Kindy",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12062,
+          "share": "48.02%"
+        },
+        {
+          "ballot_name": "Richard Lambert",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 346,
+          "share": "1.38%"
+        },
+        {
+          "ballot_name": "Sara Lopez",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10696,
+          "share": "42.58%"
+        },
+        {
+          "ballot_name": "Benjamin Olsson",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1992,
+          "share": "7.93%"
+        }
+      ],
+      "total_valid_votes": 25096,
+      "total_valid_share": "99.91%",
+      "rejected_ballots": 22,
+      "rejected_share": "0.09%",
+      "total_considered_votes": 25118,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1992,
+        "NDP": 10696,
+        "CP": 12062,
+        "Other": 346
+      },
+      "leading": {
+        "ballot_name": "Anna Kindy",
+        "affiliation": "Conservative Party",
+        "votes": 12062,
+        "share": "48.02%",
+        "margin": 1366
+      },
+      "tied": null
+    },
+    {
+      "name": "North Vancouver-Lonsdale",
+      "slug": "north-vancouver-lonsdale",
+      "abbreviation": "NVL",
+      "electoral_district_id": 303,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Joshua A Singer Johnson",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2502,
+          "share": "11.38%"
+        },
+        {
+          "ballot_name": "Bowinn Ma",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10315,
+          "share": "46.92%"
+        },
+        {
+          "ballot_name": "Trevor Withers",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9125,
+          "share": "41.51%"
+        }
+      ],
+      "total_valid_votes": 21942,
+      "total_valid_share": "99.80%",
+      "rejected_ballots": 43,
+      "rejected_share": "0.20%",
+      "total_considered_votes": 21985,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2502,
+        "NDP": 10315,
+        "CP": 9125,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Bowinn Ma",
+        "affiliation": "BC NDP",
+        "votes": 10315,
+        "share": "46.92%",
+        "margin": 1190
+      },
+      "tied": null
+    },
+    {
+      "name": "North Vancouver-Seymour",
+      "slug": "north-vancouver-seymour",
+      "abbreviation": "NVS",
+      "electoral_district_id": 304,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Lynne Block",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12290,
+          "share": "46.66%"
+        },
+        {
+          "ballot_name": "Susie Chant",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9827,
+          "share": "37.31%"
+        },
+        {
+          "ballot_name": "Lori Climenhaga",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1314,
+          "share": "4.99%"
+        },
+        {
+          "ballot_name": "Ben Holt",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2827,
+          "share": "10.73%"
+        }
+      ],
+      "total_valid_votes": 26258,
+      "total_valid_share": "99.69%",
+      "rejected_ballots": 82,
+      "rejected_share": "0.31%",
+      "total_considered_votes": 26340,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2827,
+        "NDP": 9827,
+        "CP": 12290,
+        "Other": 1314
+      },
+      "leading": {
+        "ballot_name": "Lynne Block",
+        "affiliation": "Conservative Party",
+        "votes": 12290,
+        "share": "46.66%",
+        "margin": 2463
+      },
+      "tied": null
+    },
+    {
+      "name": "Oak Bay-Gordon Head",
+      "slug": "oak-bay-gordon-head",
+      "abbreviation": "OBG",
+      "electoral_district_id": 305,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Andrew Appleton",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5457,
+          "share": "21.93%"
+        },
+        {
+          "ballot_name": "Diana Gibson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9207,
+          "share": "37.00%"
+        },
+        {
+          "ballot_name": "Stan Sipos",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7601,
+          "share": "30.54%"
+        },
+        {
+          "ballot_name": "Andrew Weaver",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2592,
+          "share": "10.42%"
+        }
+      ],
+      "total_valid_votes": 24857,
+      "total_valid_share": "99.88%",
+      "rejected_ballots": 30,
+      "rejected_share": "0.12%",
+      "total_considered_votes": 24887,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 5457,
+        "NDP": 9207,
+        "CP": 7601,
+        "Other": 2592
+      },
+      "leading": {
+        "ballot_name": "Diana Gibson",
+        "affiliation": "BC NDP",
+        "votes": 9207,
+        "share": "37.00%",
+        "margin": 1606
+      },
+      "tied": null
+    },
+    {
+      "name": "Peace River North",
+      "slug": "peace-river-north",
+      "abbreviation": "PCN",
+      "electoral_district_id": 306,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Jordan Kealy",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1500,
+          "share": "13.86%"
+        },
+        {
+          "ballot_name": "Curtis Whitford",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9011,
+          "share": "83.28%"
+        }
+      ],
+      "total_valid_votes": 10511,
+      "total_valid_share": "97.14%",
+      "rejected_ballots": 309,
+      "rejected_share": "2.86%",
+      "total_considered_votes": 10820,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 0,
+        "CP": 9011,
+        "Other": 1500
+      },
+      "leading": {
+        "ballot_name": "Curtis Whitford",
+        "affiliation": "Conservative Party",
+        "votes": 9011,
+        "share": "83.28%",
+        "margin": 7511
+      },
+      "tied": null
+    },
+    {
+      "name": "Peace River South",
+      "slug": "peace-river-south",
+      "abbreviation": "PCS",
+      "electoral_district_id": 307,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Marsha Rose Dufresne",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1201,
+          "share": "15.31%"
+        },
+        {
+          "ballot_name": "Larry Neufeld",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6076,
+          "share": "77.43%"
+        },
+        {
+          "ballot_name": "Helen Scott",
+          "affiliation": "Unaffiliated",
+          "affiliation_blank_on_candidate_report": true,
+          "votes": 542,
+          "share": "6.91%"
+        }
+      ],
+      "total_valid_votes": 7819,
+      "total_valid_share": "99.64%",
+      "rejected_ballots": 28,
+      "rejected_share": "0.36%",
+      "total_considered_votes": 7847,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 1201,
+        "CP": 6076,
+        "Other": 542
+      },
+      "leading": {
+        "ballot_name": "Larry Neufeld",
+        "affiliation": "Conservative Party",
+        "votes": 6076,
+        "share": "77.43%",
+        "margin": 4875
+      },
+      "tied": null
+    },
+    {
+      "name": "Penticton-Summerland",
+      "slug": "penticton-summerland",
+      "abbreviation": "PES",
+      "electoral_district_id": 308,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Bradley Sean Bartsch",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2037,
+          "share": "7.98%"
+        },
+        {
+          "ballot_name": "Warren Hamm",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1342,
+          "share": "5.26%"
+        },
+        {
+          "ballot_name": "Tina Lee",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10508,
+          "share": "41.15%"
+        },
+        {
+          "ballot_name": "Tracy St Claire",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11616,
+          "share": "45.49%"
+        }
+      ],
+      "total_valid_votes": 25503,
+      "total_valid_share": "99.88%",
+      "rejected_ballots": 30,
+      "rejected_share": "0.12%",
+      "total_considered_votes": 25533,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2037,
+        "NDP": 10508,
+        "CP": 11616,
+        "Other": 1342
+      },
+      "leading": {
+        "ballot_name": "Tracy St Claire",
+        "affiliation": "Conservative Party",
+        "votes": 11616,
+        "share": "45.49%",
+        "margin": 1108
+      },
+      "tied": null
+    },
+    {
+      "name": "Port Coquitlam",
+      "slug": "port-coquitlam",
+      "abbreviation": "POC",
+      "electoral_district_id": 309,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Keenan Adams",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9393,
+          "share": "43.41%"
+        },
+        {
+          "ballot_name": "Lee-Ann Bates",
+          "affiliation": "Unaffiliated",
+          "affiliation_blank_on_candidate_report": true,
+          "votes": 286,
+          "share": "1.32%"
+        },
+        {
+          "ballot_name": "Lewis C. Dahlby",
+          "affiliation": "Libertarian",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 276,
+          "share": "1.28%"
+        },
+        {
+          "ballot_name": "Mike Farnworth",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9802,
+          "share": "45.30%"
+        },
+        {
+          "ballot_name": "Stephanie Hendy",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1838,
+          "share": "8.49%"
+        }
+      ],
+      "total_valid_votes": 21595,
+      "total_valid_share": "99.80%",
+      "rejected_ballots": 44,
+      "rejected_share": "0.20%",
+      "total_considered_votes": 21639,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1838,
+        "NDP": 9802,
+        "CP": 9393,
+        "Other": 562
+      },
+      "leading": {
+        "ballot_name": "Mike Farnworth",
+        "affiliation": "BC NDP",
+        "votes": 9802,
+        "share": "45.30%",
+        "margin": 409
+      },
+      "tied": null
+    },
+    {
+      "name": "Port Moody-Burquitlam",
+      "slug": "port-moody-burquitlam",
+      "abbreviation": "POM",
+      "electoral_district_id": 310,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Wei Chou",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1875,
+          "share": "8.18%"
+        },
+        {
+          "ballot_name": "Rick Glumac",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9643,
+          "share": "42.09%"
+        },
+        {
+          "ballot_name": "John McEwen",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10721,
+          "share": "46.79%"
+        },
+        {
+          "ballot_name": "Freddy Rawji",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 643,
+          "share": "2.81%"
+        }
+      ],
+      "total_valid_votes": 22882,
+      "total_valid_share": "99.86%",
+      "rejected_ballots": 31,
+      "rejected_share": "0.14%",
+      "total_considered_votes": 22913,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1875,
+        "NDP": 9643,
+        "CP": 10721,
+        "Other": 643
+      },
+      "leading": {
+        "ballot_name": "John McEwen",
+        "affiliation": "Conservative Party",
+        "votes": 10721,
+        "share": "46.79%",
+        "margin": 1078
+      },
+      "tied": null
+    },
+    {
+      "name": "Powell River-Sunshine Coast",
+      "slug": "powell-river-sunshine-coast",
+      "abbreviation": "POR",
+      "electoral_district_id": 311,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "John Henderson",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10163,
+          "share": "38.95%"
+        },
+        {
+          "ballot_name": "Griffin Leonard Lea",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3100,
+          "share": "11.88%"
+        },
+        {
+          "ballot_name": "Randene Neill",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12791,
+          "share": "49.02%"
+        }
+      ],
+      "total_valid_votes": 26054,
+      "total_valid_share": "99.85%",
+      "rejected_ballots": 40,
+      "rejected_share": "0.15%",
+      "total_considered_votes": 26094,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3100,
+        "NDP": 12791,
+        "CP": 10163,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Randene Neill",
+        "affiliation": "BC NDP",
+        "votes": 12791,
+        "share": "49.02%",
+        "margin": 2628
+      },
+      "tied": null
+    },
+    {
+      "name": "Prince George-Mackenzie",
+      "slug": "prince-george-mackenzie",
+      "abbreviation": "PRM",
+      "electoral_district_id": 312,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kiel Giddens",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9933,
+          "share": "66.13%"
+        },
+        {
+          "ballot_name": "Ian McMahon",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3533,
+          "share": "23.52%"
+        },
+        {
+          "ballot_name": "Teri Young",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1516,
+          "share": "10.09%"
+        }
+      ],
+      "total_valid_votes": 14982,
+      "total_valid_share": "99.74%",
+      "rejected_ballots": 39,
+      "rejected_share": "0.26%",
+      "total_considered_votes": 15021,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1516,
+        "NDP": 3533,
+        "CP": 9933,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Kiel Giddens",
+        "affiliation": "Conservative Party",
+        "votes": 9933,
+        "share": "66.13%",
+        "margin": 6400
+      },
+      "tied": null
+    },
+    {
+      "name": "Prince George-North Cariboo",
+      "slug": "prince-george-north-cariboo",
+      "abbreviation": "PRO",
+      "electoral_district_id": 313,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Denice Bardua",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3401,
+          "share": "20.19%"
+        },
+        {
+          "ballot_name": "Sheldon Clare",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 11820,
+          "share": "70.17%"
+        },
+        {
+          "ballot_name": "Randy Thompson",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1589,
+          "share": "9.43%"
+        }
+      ],
+      "total_valid_votes": 16810,
+      "total_valid_share": "99.80%",
+      "rejected_ballots": 34,
+      "rejected_share": "0.20%",
+      "total_considered_votes": 16844,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1589,
+        "NDP": 3401,
+        "CP": 11820,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Sheldon Clare",
+        "affiliation": "Conservative Party",
+        "votes": 11820,
+        "share": "70.17%",
+        "margin": 8419
+      },
+      "tied": null
+    },
+    {
+      "name": "Prince George-Valemount",
+      "slug": "prince-george-valemount",
+      "abbreviation": "PRV",
+      "electoral_district_id": 314,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Rosalyn Bird",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6626,
+          "share": "50.93%"
+        },
+        {
+          "ballot_name": "Carol Bourque",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3807,
+          "share": "29.26%"
+        },
+        {
+          "ballot_name": "Jodie Capling",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1528,
+          "share": "11.74%"
+        },
+        {
+          "ballot_name": "Mitchell Lukoni",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1029,
+          "share": "7.91%"
+        }
+      ],
+      "total_valid_votes": 12990,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 21,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 13011,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1528,
+        "NDP": 3807,
+        "CP": 6626,
+        "Other": 1029
+      },
+      "leading": {
+        "ballot_name": "Rosalyn Bird",
+        "affiliation": "Conservative Party",
+        "votes": 6626,
+        "share": "50.93%",
+        "margin": 2819
+      },
+      "tied": null
+    },
+    {
+      "name": "Richmond Centre",
+      "slug": "richmond-centre",
+      "abbreviation": "RCC",
+      "electoral_district_id": 316,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Lawrence Chen",
+          "affiliation": "CWP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 321,
+          "share": "2.49%"
+        },
+        {
+          "ballot_name": "Calvin Dang",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 772,
+          "share": "5.98%"
+        },
+        {
+          "ballot_name": "Sacha Peter",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7415,
+          "share": "57.47%"
+        },
+        {
+          "ballot_name": "Henry Yao",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4356,
+          "share": "33.76%"
+        }
+      ],
+      "total_valid_votes": 12864,
+      "total_valid_share": "99.71%",
+      "rejected_ballots": 38,
+      "rejected_share": "0.29%",
+      "total_considered_votes": 12902,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 772,
+        "NDP": 4356,
+        "CP": 7415,
+        "Other": 321
+      },
+      "leading": {
+        "ballot_name": "Sacha Peter",
+        "affiliation": "Conservative Party",
+        "votes": 7415,
+        "share": "57.47%",
+        "margin": 3059
+      },
+      "tied": null
+    },
+    {
+      "name": "Richmond-Bridgeport",
+      "slug": "richmond-bridgeport",
+      "abbreviation": "RCB",
+      "electoral_district_id": 315,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Linda Li",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4362,
+          "share": "31.52%"
+        },
+        {
+          "ballot_name": "Teresa Wat",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9390,
+          "share": "67.84%"
+        }
+      ],
+      "total_valid_votes": 13752,
+      "total_valid_share": "99.36%",
+      "rejected_ballots": 89,
+      "rejected_share": "0.64%",
+      "total_considered_votes": 13841,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 4362,
+        "CP": 9390,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Teresa Wat",
+        "affiliation": "Conservative Party",
+        "votes": 9390,
+        "share": "67.84%",
+        "margin": 5028
+      },
+      "tied": null
+    },
+    {
+      "name": "Richmond-Queensborough",
+      "slug": "richmond-queensborough",
+      "abbreviation": "RCQ",
+      "electoral_district_id": 317,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Luc Burns",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1243,
+          "share": "7.54%"
+        },
+        {
+          "ballot_name": "Dhar Grewal",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5474,
+          "share": "33.20%"
+        },
+        {
+          "ballot_name": "Steve Kooner",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9716,
+          "share": "58.93%"
+        }
+      ],
+      "total_valid_votes": 16433,
+      "total_valid_share": "99.68%",
+      "rejected_ballots": 53,
+      "rejected_share": "0.32%",
+      "total_considered_votes": 16486,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1243,
+        "NDP": 5474,
+        "CP": 9716,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Steve Kooner",
+        "affiliation": "Conservative Party",
+        "votes": 9716,
+        "share": "58.93%",
+        "margin": 4242
+      },
+      "tied": null
+    },
+    {
+      "name": "Richmond-Steveston",
+      "slug": "richmond-steveston",
+      "abbreviation": "RCS",
+      "electoral_district_id": 318,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Robert Evans",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 444,
+          "share": "2.21%"
+        },
+        {
+          "ballot_name": "Bruce Kong",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7002,
+          "share": "34.90%"
+        },
+        {
+          "ballot_name": "Barry Wosk",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1598,
+          "share": "7.96%"
+        },
+        {
+          "ballot_name": "Keenan Yang",
+          "affiliation": "CWP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 126,
+          "share": "0.63%"
+        },
+        {
+          "ballot_name": "Gordon Zhang",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10842,
+          "share": "54.04%"
+        }
+      ],
+      "total_valid_votes": 20012,
+      "total_valid_share": "99.74%",
+      "rejected_ballots": 52,
+      "rejected_share": "0.26%",
+      "total_considered_votes": 20064,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 7002,
+        "CP": 10842,
+        "Other": 2168
+      },
+      "leading": {
+        "ballot_name": "Gordon Zhang",
+        "affiliation": "Conservative Party",
+        "votes": 10842,
+        "share": "54.04%",
+        "margin": 3840
+      },
+      "tied": null
+    },
+    {
+      "name": "Saanich North and the Islands",
+      "slug": "saanich-north-and-the-islands",
+      "abbreviation": "SAN",
+      "electoral_district_id": 319,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kala Bryson",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5228,
+          "share": "17.48%"
+        },
+        {
+          "ballot_name": "Emily Lowan",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 14483,
+          "share": "48.43%"
+        },
+        {
+          "ballot_name": "Richard Smith",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 698,
+          "share": "2.33%"
+        },
+        {
+          "ballot_name": "Ryan Windsor",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9467,
+          "share": "31.66%"
+        }
+      ],
+      "total_valid_votes": 29876,
+      "total_valid_share": "99.91%",
+      "rejected_ballots": 26,
+      "rejected_share": "0.09%",
+      "total_considered_votes": 29902,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 14483,
+        "NDP": 5228,
+        "CP": 9467,
+        "Other": 698
+      },
+      "leading": {
+        "ballot_name": "Emily Lowan",
+        "affiliation": "BC Green Party",
+        "votes": 14483,
+        "share": "48.43%",
+        "margin": 5016
+      },
+      "tied": null
+    },
+    {
+      "name": "Saanich South",
+      "slug": "saanich-south",
+      "abbreviation": "SAS",
+      "electoral_district_id": 320,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Lisa Lapointe",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6992,
+          "share": "25.99%"
+        },
+        {
+          "ballot_name": "Cathie Ounsted",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10559,
+          "share": "39.25%"
+        },
+        {
+          "ballot_name": "Richard Zussman",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9325,
+          "share": "34.66%"
+        }
+      ],
+      "total_valid_votes": 26876,
+      "total_valid_share": "99.91%",
+      "rejected_ballots": 25,
+      "rejected_share": "0.09%",
+      "total_considered_votes": 26901,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 6992,
+        "NDP": 9325,
+        "CP": 10559,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Cathie Ounsted",
+        "affiliation": "Conservative Party",
+        "votes": 10559,
+        "share": "39.25%",
+        "margin": 1234
+      },
+      "tied": null
+    },
+    {
+      "name": "Salmon Arm-Shuswap",
+      "slug": "salmon-arm-shuswap",
+      "abbreviation": "SHU",
+      "electoral_district_id": 321,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Gloria Morgan",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7934,
+          "share": "28.08%"
+        },
+        {
+          "ballot_name": "Barbara Presch",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1449,
+          "share": "5.13%"
+        },
+        {
+          "ballot_name": "Denise Reimer",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1036,
+          "share": "3.67%"
+        },
+        {
+          "ballot_name": "Jed Wiebe",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2330,
+          "share": "8.25%"
+        },
+        {
+          "ballot_name": "David L Williams",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 15459,
+          "share": "54.71%"
+        }
+      ],
+      "total_valid_votes": 28208,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 46,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 28254,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2330,
+        "NDP": 7934,
+        "CP": 15459,
+        "Other": 2485
+      },
+      "leading": {
+        "ballot_name": "David L Williams",
+        "affiliation": "Conservative Party",
+        "votes": 15459,
+        "share": "54.71%",
+        "margin": 7525
+      },
+      "tied": null
+    },
+    {
+      "name": "Skeena",
+      "slug": "skeena",
+      "abbreviation": "SKE",
+      "electoral_district_id": 322,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Nick Gottlieb",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 924,
+          "share": "8.41%"
+        },
+        {
+          "ballot_name": "Claire Ratt&#233;e",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5643,
+          "share": "51.35%"
+        },
+        {
+          "ballot_name": "Larry Eugene Taylor",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 281,
+          "share": "2.56%"
+        },
+        {
+          "ballot_name": "Sarah Zimmerman",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4119,
+          "share": "37.48%"
+        }
+      ],
+      "total_valid_votes": 10967,
+      "total_valid_share": "99.79%",
+      "rejected_ballots": 23,
+      "rejected_share": "0.21%",
+      "total_considered_votes": 10990,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 924,
+        "NDP": 4119,
+        "CP": 5643,
+        "Other": 281
+      },
+      "leading": {
+        "ballot_name": "Claire Ratt&#233;e",
+        "affiliation": "Conservative Party",
+        "votes": 5643,
+        "share": "51.35%",
+        "margin": 1524
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey City Centre",
+      "slug": "surrey-city-centre",
+      "abbreviation": "SRC",
+      "electoral_district_id": 323,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Amna Shah",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5321,
+          "share": "44.07%"
+        },
+        {
+          "ballot_name": "Raman Sharma",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 418,
+          "share": "3.46%"
+        },
+        {
+          "ballot_name": "Zeeshan Wahla",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5716,
+          "share": "47.34%"
+        },
+        {
+          "ballot_name": "Oliver Wildfong",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 584,
+          "share": "4.84%"
+        }
+      ],
+      "total_valid_votes": 12039,
+      "total_valid_share": "99.71%",
+      "rejected_ballots": 35,
+      "rejected_share": "0.29%",
+      "total_considered_votes": 12074,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 5321,
+        "CP": 5716,
+        "Other": 1002
+      },
+      "leading": {
+        "ballot_name": "Zeeshan Wahla",
+        "affiliation": "Conservative Party",
+        "votes": 5716,
+        "share": "47.34%",
+        "margin": 395
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey North",
+      "slug": "surrey-north",
+      "abbreviation": "SUN",
+      "electoral_district_id": 328,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Jag Bhandari",
+          "affiliation": "Unaffiliated",
+          "affiliation_blank_on_candidate_report": true,
+          "votes": 60,
+          "share": "0.46%"
+        },
+        {
+          "ballot_name": "Parm Bhandol",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 322,
+          "share": "2.46%"
+        },
+        {
+          "ballot_name": "Mandeep Singh Dhaliwal",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7542,
+          "share": "57.61%"
+        },
+        {
+          "ballot_name": "Yudhbir Gill",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 575,
+          "share": "4.39%"
+        },
+        {
+          "ballot_name": "Tanya Gupta",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 246,
+          "share": "1.88%"
+        },
+        {
+          "ballot_name": "Sahib Thind",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4296,
+          "share": "32.81%"
+        }
+      ],
+      "total_valid_votes": 13041,
+      "total_valid_share": "99.61%",
+      "rejected_ballots": 51,
+      "rejected_share": "0.39%",
+      "total_considered_votes": 13092,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 575,
+        "NDP": 4296,
+        "CP": 7542,
+        "Other": 628
+      },
+      "leading": {
+        "ballot_name": "Mandeep Singh Dhaliwal",
+        "affiliation": "Conservative Party",
+        "votes": 7542,
+        "share": "57.61%",
+        "margin": 3246
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey South",
+      "slug": "surrey-south",
+      "abbreviation": "SUS",
+      "electoral_district_id": 331,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Denis R Hurtubise",
+          "affiliation": "Unaffiliated",
+          "affiliation_blank_on_candidate_report": true,
+          "votes": 266,
+          "share": "1.30%"
+        },
+        {
+          "ballot_name": "Megan Knight",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12564,
+          "share": "61.36%"
+        },
+        {
+          "ballot_name": "Bill McConnell",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1021,
+          "share": "4.99%"
+        },
+        {
+          "ballot_name": "Elenore Sturko",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2074,
+          "share": "10.13%"
+        },
+        {
+          "ballot_name": "Parik Tahlan",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4538,
+          "share": "22.16%"
+        }
+      ],
+      "total_valid_votes": 20463,
+      "total_valid_share": "99.94%",
+      "rejected_ballots": 13,
+      "rejected_share": "0.06%",
+      "total_considered_votes": 20476,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1021,
+        "NDP": 4538,
+        "CP": 12564,
+        "Other": 2340
+      },
+      "leading": {
+        "ballot_name": "Megan Knight",
+        "affiliation": "Conservative Party",
+        "votes": 12564,
+        "share": "61.36%",
+        "margin": 8026
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-Cloverdale",
+      "slug": "surrey-cloverdale",
+      "abbreviation": "SRD",
+      "electoral_district_id": 324,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Nicholas Cartmell",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9156,
+          "share": "53.04%"
+        },
+        {
+          "ballot_name": "Sargy Chima",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 586,
+          "share": "3.39%"
+        },
+        {
+          "ballot_name": "Stephen Dooley",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5850,
+          "share": "33.89%"
+        },
+        {
+          "ballot_name": "Travis Marchenski",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 443,
+          "share": "2.57%"
+        },
+        {
+          "ballot_name": "Pat McCutcheon",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1214,
+          "share": "7.03%"
+        }
+      ],
+      "total_valid_votes": 17249,
+      "total_valid_share": "99.91%",
+      "rejected_ballots": 15,
+      "rejected_share": "0.09%",
+      "total_considered_votes": 17264,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1214,
+        "NDP": 5850,
+        "CP": 9156,
+        "Other": 1029
+      },
+      "leading": {
+        "ballot_name": "Nicholas Cartmell",
+        "affiliation": "Conservative Party",
+        "votes": 9156,
+        "share": "53.04%",
+        "margin": 3306
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-Fleetwood",
+      "slug": "surrey-fleetwood",
+      "abbreviation": "SRF",
+      "electoral_district_id": 325,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Tim Binnema",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1030,
+          "share": "6.00%"
+        },
+        {
+          "ballot_name": "Jagrup Brar",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6525,
+          "share": "38.00%"
+        },
+        {
+          "ballot_name": "Paul Brar",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 392,
+          "share": "2.28%"
+        },
+        {
+          "ballot_name": "Carolyn Hofbauer",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 501,
+          "share": "2.92%"
+        },
+        {
+          "ballot_name": "Garry Purewal",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8696,
+          "share": "50.65%"
+        }
+      ],
+      "total_valid_votes": 17144,
+      "total_valid_share": "99.85%",
+      "rejected_ballots": 26,
+      "rejected_share": "0.15%",
+      "total_considered_votes": 17170,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1030,
+        "NDP": 6525,
+        "CP": 8696,
+        "Other": 893
+      },
+      "leading": {
+        "ballot_name": "Garry Purewal",
+        "affiliation": "Conservative Party",
+        "votes": 8696,
+        "share": "50.65%",
+        "margin": 2171
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-Guildford",
+      "slug": "surrey-guildford",
+      "abbreviation": "SRG",
+      "electoral_district_id": 326,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Garry Begg",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6268,
+          "share": "40.92%"
+        },
+        {
+          "ballot_name": "Jodi Murphy",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 965,
+          "share": "6.30%"
+        },
+        {
+          "ballot_name": "Garry Thind",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7744,
+          "share": "50.55%"
+        },
+        {
+          "ballot_name": "James Yaroshuk",
+          "affiliation": "Unaffiliated",
+          "affiliation_blank_on_candidate_report": true,
+          "votes": 307,
+          "share": "2.00%"
+        }
+      ],
+      "total_valid_votes": 15284,
+      "total_valid_share": "99.78%",
+      "rejected_ballots": 34,
+      "rejected_share": "0.22%",
+      "total_considered_votes": 15318,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 965,
+        "NDP": 6268,
+        "CP": 7744,
+        "Other": 307
+      },
+      "leading": {
+        "ballot_name": "Garry Thind",
+        "affiliation": "Conservative Party",
+        "votes": 7744,
+        "share": "50.55%",
+        "margin": 1476
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-Newton",
+      "slug": "surrey-newton",
+      "abbreviation": "SRN",
+      "electoral_district_id": 327,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Harj Dhaliwal",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7336,
+          "share": "54.33%"
+        },
+        {
+          "ballot_name": "Harman Preet Singh",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 645,
+          "share": "4.78%"
+        },
+        {
+          "ballot_name": "Jessie Sunner",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5478,
+          "share": "40.57%"
+        }
+      ],
+      "total_valid_votes": 13459,
+      "total_valid_share": "99.68%",
+      "rejected_ballots": 43,
+      "rejected_share": "0.32%",
+      "total_considered_votes": 13502,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 5478,
+        "CP": 7336,
+        "Other": 645
+      },
+      "leading": {
+        "ballot_name": "Harj Dhaliwal",
+        "affiliation": "Conservative Party",
+        "votes": 7336,
+        "share": "54.33%",
+        "margin": 1858
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-Panorama",
+      "slug": "surrey-panorama",
+      "abbreviation": "SUP",
+      "electoral_district_id": 329,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Manav Manro",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 382,
+          "share": "2.61%"
+        },
+        {
+          "ballot_name": "Nolen Scott",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 750,
+          "share": "5.12%"
+        },
+        {
+          "ballot_name": "Jinny Sims",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4899,
+          "share": "33.45%"
+        },
+        {
+          "ballot_name": "Bryan Tepper",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8601,
+          "share": "58.72%"
+        }
+      ],
+      "total_valid_votes": 14632,
+      "total_valid_share": "99.90%",
+      "rejected_ballots": 15,
+      "rejected_share": "0.10%",
+      "total_considered_votes": 14647,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 750,
+        "NDP": 4899,
+        "CP": 8601,
+        "Other": 382
+      },
+      "leading": {
+        "ballot_name": "Bryan Tepper",
+        "affiliation": "Conservative Party",
+        "votes": 8601,
+        "share": "58.72%",
+        "margin": 3702
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-Serpentine River",
+      "slug": "surrey-serpentine-river",
+      "abbreviation": "SUR",
+      "electoral_district_id": 330,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Judy Higginbotham",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 890,
+          "share": "5.10%"
+        },
+        {
+          "ballot_name": "Todd Holowchak",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 593,
+          "share": "3.40%"
+        },
+        {
+          "ballot_name": "Sikander Kang",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5681,
+          "share": "32.56%"
+        },
+        {
+          "ballot_name": "Errol Povah",
+          "affiliation": "Freedom Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 125,
+          "share": "0.72%"
+        },
+        {
+          "ballot_name": "Jessy Sahota",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10120,
+          "share": "58.00%"
+        }
+      ],
+      "total_valid_votes": 17409,
+      "total_valid_share": "99.78%",
+      "rejected_ballots": 38,
+      "rejected_share": "0.22%",
+      "total_considered_votes": 17447,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 0,
+        "NDP": 5681,
+        "CP": 10120,
+        "Other": 1608
+      },
+      "leading": {
+        "ballot_name": "Jessy Sahota",
+        "affiliation": "Conservative Party",
+        "votes": 10120,
+        "share": "58.00%",
+        "margin": 4439
+      },
+      "tied": null
+    },
+    {
+      "name": "Surrey-White Rock",
+      "slug": "surrey-white-rock",
+      "abbreviation": "SWR",
+      "electoral_district_id": 332,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kevin Diakiw",
+          "affiliation": "Independent",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 183,
+          "share": "0.74%"
+        },
+        {
+          "ballot_name": "Trevor Halford",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 14387,
+          "share": "58.11%"
+        },
+        {
+          "ballot_name": "Amanda James",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 592,
+          "share": "2.39%"
+        },
+        {
+          "ballot_name": "Christine Kinnie",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1900,
+          "share": "7.67%"
+        },
+        {
+          "ballot_name": "Waqas Rana",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 519,
+          "share": "2.10%"
+        },
+        {
+          "ballot_name": "Darryl Walker",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7153,
+          "share": "28.89%"
+        }
+      ],
+      "total_valid_votes": 24734,
+      "total_valid_share": "99.89%",
+      "rejected_ballots": 26,
+      "rejected_share": "0.11%",
+      "total_considered_votes": 24760,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1900,
+        "NDP": 7153,
+        "CP": 14387,
+        "Other": 1294
+      },
+      "leading": {
+        "ballot_name": "Trevor Halford",
+        "affiliation": "Conservative Party",
+        "votes": 14387,
+        "share": "58.11%",
+        "margin": 7234
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Fraserview",
+      "slug": "vancouver-fraserview",
+      "abbreviation": "VFV",
+      "electoral_district_id": 333,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Francoise Raunet",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2304,
+          "share": "14.17%"
+        },
+        {
+          "ballot_name": "Deep Sandhu",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7159,
+          "share": "44.03%"
+        },
+        {
+          "ballot_name": "Aman Singh",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6773,
+          "share": "41.65%"
+        }
+      ],
+      "total_valid_votes": 16236,
+      "total_valid_share": "99.85%",
+      "rejected_ballots": 25,
+      "rejected_share": "0.15%",
+      "total_considered_votes": 16261,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2304,
+        "NDP": 6773,
+        "CP": 7159,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Deep Sandhu",
+        "affiliation": "Conservative Party",
+        "votes": 7159,
+        "share": "44.03%",
+        "margin": 386
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Hastings",
+      "slug": "vancouver-hastings",
+      "abbreviation": "VHA",
+      "electoral_district_id": 334,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Christian Bosio",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 463,
+          "share": "2.44%"
+        },
+        {
+          "ballot_name": "Kimball Cariou",
+          "affiliation": "Communist Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 167,
+          "share": "0.88%"
+        },
+        {
+          "ballot_name": "Kyra Philbert",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3577,
+          "share": "18.85%"
+        },
+        {
+          "ballot_name": "Niki Sharma",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9713,
+          "share": "51.17%"
+        },
+        {
+          "ballot_name": "Phyllis Tang",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4795,
+          "share": "25.26%"
+        },
+        {
+          "ballot_name": "Phil Webb",
+          "affiliation": "Libertarian",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 221,
+          "share": "1.16%"
+        }
+      ],
+      "total_valid_votes": 18936,
+      "total_valid_share": "99.77%",
+      "rejected_ballots": 44,
+      "rejected_share": "0.23%",
+      "total_considered_votes": 18980,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3577,
+        "NDP": 9713,
+        "CP": 4795,
+        "Other": 851
+      },
+      "leading": {
+        "ballot_name": "Niki Sharma",
+        "affiliation": "BC NDP",
+        "votes": 9713,
+        "share": "51.17%",
+        "margin": 4918
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Kensington",
+      "slug": "vancouver-kensington",
+      "abbreviation": "VKE",
+      "electoral_district_id": 335,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Mable Elmore",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7279,
+          "share": "46.59%"
+        },
+        {
+          "ballot_name": "Adam Hawk",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2716,
+          "share": "17.38%"
+        },
+        {
+          "ballot_name": "Aron Lageri",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5600,
+          "share": "35.84%"
+        }
+      ],
+      "total_valid_votes": 15595,
+      "total_valid_share": "99.82%",
+      "rejected_ballots": 28,
+      "rejected_share": "0.18%",
+      "total_considered_votes": 15623,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2716,
+        "NDP": 7279,
+        "CP": 5600,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Mable Elmore",
+        "affiliation": "BC NDP",
+        "votes": 7279,
+        "share": "46.59%",
+        "margin": 1679
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Langara",
+      "slug": "vancouver-langara",
+      "abbreviation": "VLA",
+      "electoral_district_id": 336,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "John Atoyebi",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1123,
+          "share": "7.88%"
+        },
+        {
+          "ballot_name": "Alan Beesley",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 363,
+          "share": "2.55%"
+        },
+        {
+          "ballot_name": "Sunita Dhir",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5544,
+          "share": "38.91%"
+        },
+        {
+          "ballot_name": "Jaime Stein",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7196,
+          "share": "50.50%"
+        }
+      ],
+      "total_valid_votes": 14226,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 23,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 14249,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1123,
+        "NDP": 5544,
+        "CP": 7196,
+        "Other": 363
+      },
+      "leading": {
+        "ballot_name": "Jaime Stein",
+        "affiliation": "Conservative Party",
+        "votes": 7196,
+        "share": "50.50%",
+        "margin": 1652
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Little Mountain",
+      "slug": "vancouver-little-mountain",
+      "abbreviation": "VLM",
+      "electoral_district_id": 337,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Christine Boyle",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10145,
+          "share": "49.03%"
+        },
+        {
+          "ballot_name": "Sarah MacLeod",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3424,
+          "share": "16.55%"
+        },
+        {
+          "ballot_name": "Alex Muir",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7078,
+          "share": "34.21%"
+        }
+      ],
+      "total_valid_votes": 20647,
+      "total_valid_share": "99.78%",
+      "rejected_ballots": 45,
+      "rejected_share": "0.22%",
+      "total_considered_votes": 20692,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3424,
+        "NDP": 10145,
+        "CP": 7078,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Christine Boyle",
+        "affiliation": "BC NDP",
+        "votes": 10145,
+        "share": "49.03%",
+        "margin": 3067
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Point Grey",
+      "slug": "vancouver-point-grey",
+      "abbreviation": "VNP",
+      "electoral_district_id": 338,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Michael Davis",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 647,
+          "share": "3.55%"
+        },
+        {
+          "ballot_name": "David Eby",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7814,
+          "share": "42.93%"
+        },
+        {
+          "ballot_name": "Alex McMillan",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7273,
+          "share": "39.96%"
+        },
+        {
+          "ballot_name": "Beatrice Sharpe",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2448,
+          "share": "13.45%"
+        }
+      ],
+      "total_valid_votes": 18182,
+      "total_valid_share": "99.89%",
+      "rejected_ballots": 20,
+      "rejected_share": "0.11%",
+      "total_considered_votes": 18202,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2448,
+        "NDP": 7814,
+        "CP": 7273,
+        "Other": 647
+      },
+      "leading": {
+        "ballot_name": "David Eby",
+        "affiliation": "BC NDP",
+        "votes": 7814,
+        "share": "42.93%",
+        "margin": 541
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Quilchena",
+      "slug": "vancouver-quilchena",
+      "abbreviation": "VNQ",
+      "electoral_district_id": 339,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Carson Binda",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10958,
+          "share": "54.95%"
+        },
+        {
+          "ballot_name": "Dallas Brodie",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 805,
+          "share": "4.04%"
+        },
+        {
+          "ballot_name": "Douglas Courtemanche",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1844,
+          "share": "9.25%"
+        },
+        {
+          "ballot_name": "Petra Kuret",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1038,
+          "share": "5.21%"
+        },
+        {
+          "ballot_name": "Callista Ryan",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5269,
+          "share": "26.42%"
+        }
+      ],
+      "total_valid_votes": 19914,
+      "total_valid_share": "99.86%",
+      "rejected_ballots": 27,
+      "rejected_share": "0.14%",
+      "total_considered_votes": 19941,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1844,
+        "NDP": 5269,
+        "CP": 10958,
+        "Other": 1843
+      },
+      "leading": {
+        "ballot_name": "Carson Binda",
+        "affiliation": "Conservative Party",
+        "votes": 10958,
+        "share": "54.95%",
+        "margin": 5689
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Renfrew",
+      "slug": "vancouver-renfrew",
+      "abbreviation": "VNR",
+      "electoral_district_id": 340,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Adrian Dix",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7712,
+          "share": "54.44%"
+        },
+        {
+          "ballot_name": "Rebecca Haber",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1675,
+          "share": "11.82%"
+        },
+        {
+          "ballot_name": "Tom Ikonomou",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4412,
+          "share": "31.15%"
+        },
+        {
+          "ballot_name": "Lisa Prescott",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 314,
+          "share": "2.22%"
+        }
+      ],
+      "total_valid_votes": 14113,
+      "total_valid_share": "99.63%",
+      "rejected_ballots": 52,
+      "rejected_share": "0.37%",
+      "total_considered_votes": 14165,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1675,
+        "NDP": 7712,
+        "CP": 4412,
+        "Other": 314
+      },
+      "leading": {
+        "ballot_name": "Adrian Dix",
+        "affiliation": "BC NDP",
+        "votes": 7712,
+        "share": "54.44%",
+        "margin": 3300
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-South Granville",
+      "slug": "vancouver-south-granville",
+      "abbreviation": "VNS",
+      "electoral_district_id": 341,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Maria J Cruz",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4132,
+          "share": "18.92%"
+        },
+        {
+          "ballot_name": "Lara Honrado",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10345,
+          "share": "47.37%"
+        },
+        {
+          "ballot_name": "Lisa Phillips",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6433,
+          "share": "29.46%"
+        },
+        {
+          "ballot_name": "Colin Smith",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 724,
+          "share": "3.32%"
+        },
+        {
+          "ballot_name": "Salvatore Vetro",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 182,
+          "share": "0.83%"
+        }
+      ],
+      "total_valid_votes": 21816,
+      "total_valid_share": "99.89%",
+      "rejected_ballots": 23,
+      "rejected_share": "0.11%",
+      "total_considered_votes": 21839,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 4132,
+        "NDP": 10345,
+        "CP": 6433,
+        "Other": 906
+      },
+      "leading": {
+        "ballot_name": "Lara Honrado",
+        "affiliation": "BC NDP",
+        "votes": 10345,
+        "share": "47.37%",
+        "margin": 3912
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Strathcona",
+      "slug": "vancouver-strathcona",
+      "abbreviation": "VNT",
+      "electoral_district_id": 342,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Amanda Burrows",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9490,
+          "share": "54.80%"
+        },
+        {
+          "ballot_name": "Robert Crooks",
+          "affiliation": "Communist Party of BC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 216,
+          "share": "1.25%"
+        },
+        {
+          "ballot_name": "Jordan Zheng McIntosh",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2535,
+          "share": "14.64%"
+        },
+        {
+          "ballot_name": "Tanya Webking",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4987,
+          "share": "28.79%"
+        }
+      ],
+      "total_valid_votes": 17228,
+      "total_valid_share": "99.47%",
+      "rejected_ballots": 91,
+      "rejected_share": "0.53%",
+      "total_considered_votes": 17319,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 4987,
+        "NDP": 9490,
+        "CP": 2535,
+        "Other": 216
+      },
+      "leading": {
+        "ballot_name": "Amanda Burrows",
+        "affiliation": "BC NDP",
+        "votes": 9490,
+        "share": "54.80%",
+        "margin": 4503
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-West End",
+      "slug": "vancouver-west-end",
+      "abbreviation": "VNW",
+      "electoral_district_id": 343,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Spencer Chandra Herbert",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8664,
+          "share": "51.55%"
+        },
+        {
+          "ballot_name": "Scott MacDonald",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3002,
+          "share": "17.86%"
+        },
+        {
+          "ballot_name": "Dion Weisner",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5117,
+          "share": "30.44%"
+        }
+      ],
+      "total_valid_votes": 16783,
+      "total_valid_share": "99.85%",
+      "rejected_ballots": 25,
+      "rejected_share": "0.15%",
+      "total_considered_votes": 16808,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 3002,
+        "NDP": 8664,
+        "CP": 5117,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Spencer Chandra Herbert",
+        "affiliation": "BC NDP",
+        "votes": 8664,
+        "share": "51.55%",
+        "margin": 3547
+      },
+      "tied": null
+    },
+    {
+      "name": "Vancouver-Yaletown",
+      "slug": "vancouver-yaletown",
+      "abbreviation": "VNY",
+      "electoral_district_id": 344,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Sam Chandola",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 482,
+          "share": "3.35%"
+        },
+        {
+          "ballot_name": "Margareta Dovgal",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6716,
+          "share": "46.66%"
+        },
+        {
+          "ballot_name": "Priyan Samarakoone",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1254,
+          "share": "8.71%"
+        },
+        {
+          "ballot_name": "Terry Yung",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 5871,
+          "share": "40.78%"
+        }
+      ],
+      "total_valid_votes": 14323,
+      "total_valid_share": "99.50%",
+      "rejected_ballots": 72,
+      "rejected_share": "0.50%",
+      "total_considered_votes": 14395,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1254,
+        "NDP": 5871,
+        "CP": 6716,
+        "Other": 482
+      },
+      "leading": {
+        "ballot_name": "Margareta Dovgal",
+        "affiliation": "Conservative Party",
+        "votes": 6716,
+        "share": "46.66%",
+        "margin": 845
+      },
+      "tied": null
+    },
+    {
+      "name": "Vernon-Lumby",
+      "slug": "vernon-lumby",
+      "abbreviation": "VRL",
+      "electoral_district_id": 345,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Kevin Acton",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 12709,
+          "share": "50.76%"
+        },
+        {
+          "ballot_name": "Chantel Gibbs",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1121,
+          "share": "4.48%"
+        },
+        {
+          "ballot_name": "Harwinder Sandhu",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9448,
+          "share": "37.73%"
+        },
+        {
+          "ballot_name": "Blair Visscher",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1729,
+          "share": "6.91%"
+        }
+      ],
+      "total_valid_votes": 25007,
+      "total_valid_share": "99.87%",
+      "rejected_ballots": 32,
+      "rejected_share": "0.13%",
+      "total_considered_votes": 25039,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1729,
+        "NDP": 9448,
+        "CP": 12709,
+        "Other": 1121
+      },
+      "leading": {
+        "ballot_name": "Kevin Acton",
+        "affiliation": "Conservative Party",
+        "votes": 12709,
+        "share": "50.76%",
+        "margin": 3261
+      },
+      "tied": null
+    },
+    {
+      "name": "Victoria-Beacon Hill",
+      "slug": "victoria-beacon-hill",
+      "abbreviation": "VTB",
+      "electoral_district_id": 346,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Joachim Agou",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 3218,
+          "share": "14.05%"
+        },
+        {
+          "ballot_name": "Grace Lore",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10411,
+          "share": "45.46%"
+        },
+        {
+          "ballot_name": "Rajinder S. Sahota",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9195,
+          "share": "40.15%"
+        }
+      ],
+      "total_valid_votes": 22824,
+      "total_valid_share": "99.67%",
+      "rejected_ballots": 76,
+      "rejected_share": "0.33%",
+      "total_considered_votes": 22900,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 9195,
+        "NDP": 10411,
+        "CP": 3218,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Grace Lore",
+        "affiliation": "BC NDP",
+        "votes": 10411,
+        "share": "45.46%",
+        "margin": 1216
+      },
+      "tied": null
+    },
+    {
+      "name": "Victoria-Swan Lake",
+      "slug": "victoria-swan-lake",
+      "abbreviation": "VTS",
+      "electoral_district_id": 347,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Carolyn Howe",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 7560,
+          "share": "35.17%"
+        },
+        {
+          "ballot_name": "Nina Krieger",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 9381,
+          "share": "43.64%"
+        },
+        {
+          "ballot_name": "Tim Taylor",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4517,
+          "share": "21.01%"
+        }
+      ],
+      "total_valid_votes": 21458,
+      "total_valid_share": "99.82%",
+      "rejected_ballots": 39,
+      "rejected_share": "0.18%",
+      "total_considered_votes": 21497,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 7560,
+        "NDP": 9381,
+        "CP": 4517,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Nina Krieger",
+        "affiliation": "BC NDP",
+        "votes": 9381,
+        "share": "43.64%",
+        "margin": 1821
+      },
+      "tied": null
+    },
+    {
+      "name": "West Kelowna-Peachland",
+      "slug": "west-kelowna-peachland",
+      "abbreviation": "WKP",
+      "electoral_district_id": 348,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Adam Frank",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 1771,
+          "share": "7.80%"
+        },
+        {
+          "ballot_name": "Macklin McCall",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 14198,
+          "share": "62.57%"
+        },
+        {
+          "ballot_name": "George Morgan",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 6678,
+          "share": "29.43%"
+        }
+      ],
+      "total_valid_votes": 22647,
+      "total_valid_share": "99.80%",
+      "rejected_ballots": 46,
+      "rejected_share": "0.20%",
+      "total_considered_votes": 22693,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 1771,
+        "NDP": 6678,
+        "CP": 14198,
+        "Other": 0
+      },
+      "leading": {
+        "ballot_name": "Macklin McCall",
+        "affiliation": "Conservative Party",
+        "votes": 14198,
+        "share": "62.57%",
+        "margin": 7520
+      },
+      "tied": null
+    },
+    {
+      "name": "West Vancouver-Capilano",
+      "slug": "west-vancouver-capilano",
+      "abbreviation": "WVC",
+      "electoral_district_id": 349,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Honieh Barzegari",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 4462,
+          "share": "20.31%"
+        },
+        {
+          "ballot_name": "Naomi Chocyk",
+          "affiliation": "OneBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 387,
+          "share": "1.76%"
+        },
+        {
+          "ballot_name": "Caroline Elliott",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 14723,
+          "share": "67.01%"
+        },
+        {
+          "ballot_name": "Arwa Shurab",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2363,
+          "share": "10.76%"
+        }
+      ],
+      "total_valid_votes": 21935,
+      "total_valid_share": "99.84%",
+      "rejected_ballots": 36,
+      "rejected_share": "0.16%",
+      "total_considered_votes": 21971,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 2363,
+        "NDP": 4462,
+        "CP": 14723,
+        "Other": 387
+      },
+      "leading": {
+        "ballot_name": "Caroline Elliott",
+        "affiliation": "Conservative Party",
+        "votes": 14723,
+        "share": "67.01%",
+        "margin": 10261
+      },
+      "tied": null
+    },
+    {
+      "name": "West Vancouver-Sea to Sky",
+      "slug": "west-vancouver-sea-to-sky",
+      "abbreviation": "WVS",
+      "electoral_district_id": 350,
+      "status": "In Progress",
+      "candidates": [
+        {
+          "ballot_name": "Ayla Dumais",
+          "affiliation": "Conservative Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 8485,
+          "share": "38.37%"
+        },
+        {
+          "ballot_name": "Michelle Livaja",
+          "affiliation": "BC NDP",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 2285,
+          "share": "10.33%"
+        },
+        {
+          "ballot_name": "Jeremy Valeriote",
+          "affiliation": "BC Green Party",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 10506,
+          "share": "47.50%"
+        },
+        {
+          "ballot_name": "Dan Wood",
+          "affiliation": "CentreBC",
+          "affiliation_blank_on_candidate_report": false,
+          "votes": 818,
+          "share": "3.70%"
+        }
+      ],
+      "total_valid_votes": 22094,
+      "total_valid_share": "99.90%",
+      "rejected_ballots": 22,
+      "rejected_share": "0.10%",
+      "total_considered_votes": 22116,
+      "total_considered_share": "100%",
+      "party_columns": {
+        "GP": 10506,
+        "NDP": 2285,
+        "CP": 8485,
+        "Other": 818
+      },
+      "leading": {
+        "ballot_name": "Jeremy Valeriote",
+        "affiliation": "BC Green Party",
+        "votes": 10506,
+        "share": "47.50%",
+        "margin": 2021
+      },
+      "tied": null
+    }
+  ]
+}
